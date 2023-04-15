@@ -10,6 +10,13 @@ import CorporateListView from '../views/CoporateListView.vue'
 import CreatedBackatedRView from '../views/CreatedBackatedRView.vue'
 import CreateCoporateRentalView from '../views/CreateCoporateRentalView.vue'
 import RentalNotesVIew from '../views/RentalNotesVIew.vue'
+import TransactionView from '../views/TransactionView.vue'
+import UpdateCorporationView from '../views/UpdateCorporationView.vue'
+import VehiclesView from '../views/VehiclesView.vue'
+import VehicleTrackerView from '../views/VehicleTrackerView.vue'
+import VehicleQrView from '../views/VehicleQrView.vue'
+import VehiclesPpsrView from '../views/VehiclesPpsrView.vue'
+import VehicleCReportView from '../views/VehicleCReportView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -75,6 +82,41 @@ const router = createRouter({
       path: '/rentalnotes',
       name: ' RentalNotesVIew',
       component: RentalNotesVIew
+    },
+    {
+      path: '/transaction',
+      name: ' TransactionView',
+      component: TransactionView
+    },
+    {
+      path: '/updatecorporation',
+      name: 'UpdateCorporationView',
+      component: UpdateCorporationView
+    },
+    {
+      path: '/vehicle',
+      name: 'VehivlesView',
+      component: VehiclesView
+    },
+    {
+      path: '/vehicletracker',
+      name: 'VehivleTrackerView',
+      component: VehicleTrackerView
+    },
+    {
+      path: '/vehicleqr',
+      name: 'VehivleQrView',
+      component: VehicleQrView
+    },
+    {
+      path: '/vehicleppsr',
+      name: 'VehiclesPpsrView',
+      component: VehiclesPpsrView
+    },
+    {
+      path: '/vehiclecondtion',
+      name: 'VehicleCReportView',
+      component: VehicleCReportView
     }
   ]
 })
