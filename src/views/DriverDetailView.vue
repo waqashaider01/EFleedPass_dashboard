@@ -1,7 +1,7 @@
 <template>
   <div class="container my-3">
     <!-- main menu start-->
-    <div class="row menu-row">
+    <!-- <div class="row menu-row">
       <div class="col-12 d-flex">
         <div class="me-3">
           <a href="dashboard.html"><img class="me-2" src="img/Dashboard.png" alt="">Dashboard </a>
@@ -37,18 +37,18 @@
             <i id="assets-btn" class="fa-solid fa-ellipsis blu me-2"></i>
           </a>
           <div id="assets-menu" class="dropdown-menu1 main-card">
-            <!-- menu items go here -->
-            <p><a href="#"><img src="img/invoice.png"> Asset Invoices</a></p>
-            <p><a href="#"><img src="img/dollar.png"> Infringements</a></p>
-            <p><a href="#"><img src="img/person.png"> Maintenance</a></p>
-            <p><a href="#"><img src="img/tools.png"> Support</a></p>
-            <p><a href="#"><img src="img/logout.png"> Logout</a></p>
-          </div>
-        </div>
+           menu items go here -->
+    <!-- <p><a href="#"><img src="img/invoice.png"> Asset Invoices</a></p>
+    <p><a href="#"><img src="img/dollar.png"> Infringements</a></p>
+    <p><a href="#"><img src="img/person.png"> Maintenance</a></p>
+    <p><a href="#"><img src="img/tools.png"> Support</a></p>
+    <p><a href="#"><img src="img/logout.png"> Logout</a></p>
+  </div>
+  </div>
 
 
-      </div>
-    </div>
+  </div>
+  </div> -->
     <!-- main menu end-->
     <!-- View Driver Notes Start-->
     <div class="row mt-5 align-items-center sub-head-row ">
@@ -89,7 +89,7 @@
               <div class="col-md-11 ps-2">
                 <div>
                   <div class="row">
-                    <div class="row">
+                    <div class="row" style="padding-right:0px !important">
                       <div class="col-md-2 text-left">
                         <h5 class="card-title" style="display: inline-block;">Sam John</h5>
                         <p class="card-text"><small>Balance: $0</small></p>
@@ -159,7 +159,7 @@
                     <b>Birthday:</b> july 1991<br>
                     <b>Added Date:</b> April 30,2021
                   </div>
-                  <div class="col-md-8 mt-3 d-flex flex-wrap justify-content-lg-end">
+                  <div class="col-md-8 mt-3 d-flex flex-wrap justify-content-lg-end" style="padding-right:0px !important">
                     <button type="button" class="btn me-lg-3 me-3 mt-lg-0 mt-2 btn-labeled "
                       style="background-color:#E9F5FF;"><span class="btn-label">
                         <i class="fa-regular fa-comment-dots"></i></span>&nbsp;Send
@@ -577,7 +577,7 @@
 
           <div class="col-lg d-grid">
 
-            <button type="button" class="btn btn-dark btn-block">Not a Rental
+            <button type="button" class="btn btn-dark btn-block my-1">Not a Rental
               Contract</button>
 
           </div>
@@ -590,13 +590,13 @@
 
           <div class="col-lg-1 pe-0 d-grid">
 
-            <button type="button" class="btn btn-danger btn-block">Reset</button>
+            <button type="button" class="btn btn-danger btn-block my-1">Reset</button>
 
           </div>
 
           <div class="col-lg-1 d-grid">
 
-            <button type="button" class="btn btn-primary btn-block">Save</button>
+            <button type="button" class="btn btn-primary btn-block my-1">Save</button>
 
           </div>
 
@@ -679,13 +679,13 @@
         <div class="row mt-0 p-3  notification-row" id="n2">
           <div class="alert " role="alert">
             <div class="row align-items-center">
-              <div class="col-lg-1 col-1 row-cols-sm-3">
+              <div class="col-lg-1 col-2 row-cols-sm-3">
                 <img src="img/mis-icn.svg" alt="icon" class="icn">
               </div>
-              <div class="col-lg-8 col-7 "><strong><span class="text-primary">Missing Contact Number!</span></strong>
+              <div class="col-lg-8 col-6 "><strong><span class="text-primary">Missing Contact Number!</span></strong>
                 <br><span>Please fill up the missing contact detail.</span>
               </div>
-              <div class="col-lg-3 col-4 p-0"><button type="button"
+              <div class="col-lg-3 col-3 p-0"><button type="button"
                   class="btn  border-primary text-primary px-3 py-2 fs-16">Check Now</button></div>
             </div>
           </div>
@@ -733,7 +733,7 @@
         <div class="row mt-3">
           <div class="main-card ">
             <div class="container">
-              <div class="row align-items-start">
+              <div class="row align-items-start table-responsive">
 
                 <ul class="card-details">
                   <li class="mb-4"><b>Subscription Charges</b></li>
@@ -801,7 +801,7 @@
             </div>
 
 
-            <img src="img\master-card.png" alt="mastercard" class="rounded mx-auto d-block mb-3">
+            <img src="img\master-card.png" alt="mastercard" class="rounded mx-auto d-block mb-3 masCard">
 
             <ul type="none">
               <li class="d-flex align-items-center">
@@ -1304,8 +1304,9 @@
         <div class="row mb-4">
           <div class="col-md-12">
             <label for="desAccident" class="form-label"><b>Accident Description:</b></label>
-            <textarea rows="4" class="form-control" id="desAccident">Accident Description
-                                                                                                      </textarea>
+            <textarea rows="4" class="form-control"
+              id="desAccident">Accident Description
+                                                                                                                            </textarea>
           </div>
         </div>
         <div class="row g-3">

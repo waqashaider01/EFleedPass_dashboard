@@ -31,7 +31,7 @@
                     <h4>Complete Corporate Customer Rental</h4>
                 </div>
                 <!-- corporate from -->
-                <div class="corporate_from">
+                <div class="corporate_from d-sm-block d-md-grid">
                     <div class="corporate_single_info">
                         <label for="Rental">Rental Agreement No: *</label>
                         <input type="text" class="form-control" id="Rental" placeholder="LDV-RA" />

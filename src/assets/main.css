@@ -140,10 +140,10 @@ a {
   overflow: auto;
   white-space: nowrap;
   background-color: #e8e8e8;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   z-index: 3;
-  top: 174px; 
+  /* top: 174px;  */
   padding: 10px 0;
 }
 
@@ -892,6 +892,45 @@ input:checked + .slider1:before {
 .tabcontent {
   display: none;
 }
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+  .masCard{
+    width: 100%;
+  }
+  .dashboard__filter-right{
+    column-gap:none !important
+  }
+  .dashboard__filter{
+         flex-direction: column;
+  }
+  .corporate_single__item_body{
+    display: block !important;
+  } 
+  .corporate_from{
+    display: block !important;
+  }
+  .single__vechicles-body{
+    display: block !important;
+  }
+  
+
+.vechicles__body-list ul{
+  flex-direction: column;
+}
+.vehicle__tracker-list{
+  display: block !important;
+}
+.vehicle__tracker{
+  display: block !important;
+}
+.imgCar{
+  width: 100% !important;
+}
+.model__content{
+  display: block !important;
+}
+}
+
 
 @media only screen and (max-width:450px){
   .fs-10{
@@ -904,18 +943,27 @@ input:checked + .slider1:before {
       top: 258px;
   }
   .src-input{
-      width: 350px !important;
+      width: 300px !important;
   }
   .src-btn{
       right:30px !important;
   }
   .card .number{
-      transform: translate(-105px, -50%);
+    transform: translate(-66px, -50%);
   }
   .us-profile{
       width: 50%;
   }
   .dropdown-menu1{
       right: 50px;
+  }
+  .dashboard__filter-right{
+    column-gap:0px !important
+  }
+}
+@media only screen and (max-width:450px){
+ 
+  .dashboard__filter-right{
+    column-gap:0px !important
   }
 }

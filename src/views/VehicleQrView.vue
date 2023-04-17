@@ -34,19 +34,27 @@
                 </div>
             </div>
             <!-- Cars Qr Code List -->
-            <div class="qrCode__content">
-                <!-- single item -->
-                <QrCard />
-                <!-- single item -->
-                <QrCard />
-                <!-- single item -->
-                <QrCard />
-                <!-- single item -->
-                <QrCard />
-                <!-- single item -->
-                <QrCard />
-                <!-- single item -->
-                <QrCard />
+            <div class="">
+                <div class="row my-2">
+                    <div class="col-md-4 my-2">
+                        <QrCard />
+                    </div>
+                    <div class="col-md-4 my-2">
+                        <QrCard />
+                    </div>
+                    <div class="col-md-4 my-2">
+                        <QrCard />
+                    </div>
+                    <div class="col-md-4 my-2">
+                        <QrCard />
+                    </div>
+                    <div class="col-md-4 my-2">
+                        <QrCard />
+                    </div>
+                    <div class="col-md-4 my-2">
+                        <QrCard />
+                    </div>
+                </div>
             </div>
             <!-- End Cars Qr Code List -->
         </div>
@@ -79,7 +87,7 @@
         thickness: 10,
         emptyFill: '#e6e6e6',
         fill: { gradient: ['#00bcd4', '#009688'] },
-                                            }" /> -->
+                                                    }" /> -->
 
     <!-- Modal -->
 </template>

@@ -32,35 +32,30 @@
                 </div>
             </div>
             <!-- PPSR Search Item -->
-            <div class="ppsr__searchitem">
+            <div class="">
                 <!-- single item -->
-                <div class="single__ppsr">
-                    <div class="ppsr__head">
-                        <div class="profile__img">
-                            <a href="#">
-                                <img src="assets/img/profile-image-2.png" alt="img" />
-                            </a>
-                            <h3>Driver Demo</h3>
-                        </div>
-                        <a href="#">
-                            <img src="assets/img/icons/carbon_view-success.svg" alt="icon" />
-                        </a>
+
+                <!-- single item -->
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 my-2">
+                        <TransactionCard />
                     </div>
-                    <div class="ppsr__body">
-                        <p>Search Date.: <small>2022-08-25 08:28:15</small></p>
-                        <h3 class="price-pro">$10.76</h3>
+                    <div class="col-sm-12 col-md-6 my-2">
+                        <TransactionCard />
+                    </div>
+                    <div class="col-sm-12 col-md-6 my-2">
+                        <TransactionCard />
+                    </div>
+                    <div class="col-sm-12 col-md-6 my-2">
+                        <TransactionCard />
+                    </div>
+                    <div class="col-sm-12 col-md-6 my-2">
+                        <TransactionCard />
+                    </div>
+                    <div class="col-sm-12 col-md-6 my-2">
+                        <TransactionCard />
                     </div>
                 </div>
-                <!-- single item -->
-                <TransactionCard />
-                <!-- single item -->
-                <TransactionCard />
-                <!-- single item -->
-                <TransactionCard />
-                <!-- single item -->
-                <TransactionCard />
-                <!-- single item -->
-                <TransactionCard />
 
 
             </div>

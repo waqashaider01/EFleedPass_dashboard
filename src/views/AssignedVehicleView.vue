@@ -49,7 +49,7 @@
                     <div class="vehicles__person-info-img">
                         <img src="assets/img/fleet-manager.png" alt="fleet-manager" />
                     </div>
-                    <div class="vehicles__person-info-text">
+                    <div class="vehicles__person-info-text table-responsive">
                         <table class="table">
                             <tbody>
                                 <tr>
@@ -105,16 +105,31 @@
     <!-- Vehicles Table -->
     <section class="vehicle__table">
         <div class="container">
-            <div class="vehicle__widget">
-                <!-- single car -->
-                <VehicleCard />
-                <!-- single car -->
-                <VehicleCard />
-                <!-- single car -->
-                <VehicleCard />
-                <!-- single car -->
-                <VehicleCard />
+
+            <!-- single car -->
+            <div class="row">
+                <div class="col-sm-12 my-2 col-md-6 ">
+                    <VehicleCard />
+                    <!-- single car -->
+
+                </div>
+                <div class="col-sm-12 my-2 col-md-6">
+                    <VehicleCard />
+                    <!-- single car -->
+
+                </div>
+                <div class="col-sm-12 my-2 col-md-6">
+                    <VehicleCard />
+                    <!-- single car -->
+
+                </div>
+                <div class="col-sm-12 my-2 col-md-6">
+                    <VehicleCard />
+                    <!-- single car -->
+
+                </div>
             </div>
+
         </div>
     </section>
 </template>

@@ -80,7 +80,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="corporate_single__item_body">
+                    <div class="corporate_single__item_body d-sm-block d-md-grid">
                         <div class="corporate_item_img">
                             <img src="assets/img/unlimitate-rentails.png" alt="unlimitate-rentails" />
                         </div>
@@ -128,7 +128,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="corporate_single__item_body">
+                    <div class="corporate_single__item_body d-sm-block d-md-grid">
                         <div class="corporate_item_img corporate_img_bg">
                             <img src="assets/img/Simba_Final.png" alt="Simba_Fina" />
                         </div>

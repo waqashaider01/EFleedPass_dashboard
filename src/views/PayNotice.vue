@@ -120,7 +120,7 @@
                             the account listed above.
                         </p>
 
-                        <div class="mt-4 mb-4 d-flex justify-content-between">
+                        <div class="mt-4 mb-4 d-flex flex-column flex-md-row justify-content-between">
 
                             <button type="submit" class="btn btn-success success">Pay Now($133.95) </button>
 

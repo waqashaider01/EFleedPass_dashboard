@@ -15,7 +15,7 @@
                 <h4>Vehicle - ENX04M</h4>
             </div>
             <!-- Vehicle Tracker -->
-            <div class="vehicle__tracker">
+            <div class="vehicle__tracker py-3 my-2">
                 <div class="vehicle__tracker-list">
                     <!-- Tracker Metar -->
                     <div class="vehicle__tracker-metar">
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                         <div class="tracker__bottom">
-                            <img src="assets/img/cars/big.png" alt="car" />
+                            <img src="assets/img/cars/big.png" class="imgCar" alt="car" />
                         </div>
                     </div>
                     <div class="vehicle__tracker-text">
@@ -89,15 +89,22 @@
                 <h4>Vehicle - ENX04M</h4>
             </div>
             <!-- single models -->
-            <div class="cars__modle">
-                <!-- single car -->
-                <CarCard />
-                <!-- single car -->
-                <CarCard />
-                <!-- single car -->
-                <CarCard />
-                <!-- single car -->
-                <CarCard />
+            <div class="my-2">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 my-2">
+                        <CarCard />
+                    </div>
+                    <div class="col-md-6 col-sm-12 my-2">
+                        <CarCard />
+                    </div>
+                    <div class="col-md-6 col-sm-12 my-2">
+                        <CarCard />
+                    </div>
+                    <div class="col-md-6 col-sm-12 my-2">
+                        <CarCard />
+                    </div>
+                </div>
+
             </div>
         </div>
     </seciton>
@@ -128,7 +135,7 @@
         thickness: 10,
         emptyFill: '#e6e6e6',
         fill: { gradient: ['#00bcd4', '#009688'] },
-                    }" /> -->
+                                    }" /> -->
 
     <!-- Modal -->
 </template>

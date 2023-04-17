@@ -48,7 +48,7 @@
                     <div class="vehicles__person-info-img">
                         <img src="assets/img/fleet-manager.png" alt="fleet-manager" />
                     </div>
-                    <div class="vehicles__person-info-text">
+                    <div class="vehicles__person-info-text table-responsive">
                         <table class="table">
                             <tbody>
                                 <tr>
@@ -163,11 +163,11 @@
                         </label>
                     </div>
                     <div class="btns_group">
-                        <button type="submit" class="btns">
+                        <button type="submit" class="btns my-2 mx-1">
                             <img src="assets/img/icons/arrow-reset.png" alt="arrow-reset" />
                             Reset
                         </button>
-                        <button type="submit" class="btns confirm">
+                        <button type="submit" class="btns confirm my-2 mx-1">
                             <img src="assets/img/icons/circle-check.png" alt="circle-checkt" />
                             Save
                         </button>

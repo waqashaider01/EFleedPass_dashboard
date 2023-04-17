@@ -36,7 +36,16 @@
         </div>
     </div>
 </template>
+<style scoped>
+@media only screen and (max-width: 768px) {
 
+    /*Big smartphones [426px -> 600px]*/
+    .model__content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+</style>
 <script>
 export default {
     name: 'VehicleCard',

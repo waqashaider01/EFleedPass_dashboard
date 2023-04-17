@@ -15,7 +15,7 @@
                 <h4>Previous Searches</h4>
             </div>
             <!-- PPSR Search Item -->
-            <div class="ppsr__searchitem">
+            <div class="ppsr">
                 <!-- single item -->
                 <PsCard />
                 <!-- single item -->
@@ -27,7 +27,7 @@
                 <!-- single item -->
                 <PsCard />
                 <!-- single item -->
-                <PsCard />>
+                <PsCard />
             </div>
         </div>
     </seciton>
@@ -37,7 +37,7 @@
         thickness: 10,
         emptyFill: '#e6e6e6',
         fill: { gradient: ['#00bcd4', '#009688'] },
-                                                                }" /> -->
+                                                                    }" /> -->
 
     <!-- Modal -->
 </template>
