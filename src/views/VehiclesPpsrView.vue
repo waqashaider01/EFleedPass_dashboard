@@ -17,17 +17,37 @@
             <!-- PPSR Search Item -->
             <div class="ppsr">
                 <!-- single item -->
-                <PsCard />
-                <!-- single item -->
-                <PsCard />
-                <!-- single item -->
-                <PsCard />
-                <!-- single item -->
-                <PsCard />
-                <!-- single item -->
-                <PsCard />
-                <!-- single item -->
-                <PsCard />
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 my-2">
+                        <PsCard />
+
+                    </div>
+                    <div class="col-md-6 col-sm-6 my-2">
+                        <PsCard />
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 my-2">
+                        <PsCard />
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 my-2">
+                        <PsCard />
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 my-2">
+                        <PsCard />
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 my-2">
+                        <PsCard />
+
+                    </div>
+
+                </div>
             </div>
         </div>
     </seciton>
@@ -37,7 +57,7 @@
         thickness: 10,
         emptyFill: '#e6e6e6',
         fill: { gradient: ['#00bcd4', '#009688'] },
-                                                                    }" /> -->
+                                                                        }" /> -->
 
     <!-- Modal -->
 </template>

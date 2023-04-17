@@ -967,3 +967,9 @@ input:checked + .slider1:before {
     column-gap:0px !important
   }
 }
+@media only screen and (max-width:768px){
+  .src-input{
+    width: 300px !important;
+}
+
+}

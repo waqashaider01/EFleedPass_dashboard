@@ -32,19 +32,26 @@
                 <h4>Previous Searches</h4>
             </div>
             <!-- PPSR Search Item -->
-            <div class="ppsr__searchitem">
-                <!-- single item -->
-                <PsCard />
-                <!-- single item -->
-                <PsCard />
-                <!-- single item -->
-                <PsCard />
-                <!-- single item -->
-                <PsCard />
-                <!-- single item -->
-                <PsCard />
-                <!-- single item -->
-                <PsCard />
+            <div class="">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 my-2">
+                        <!-- single item -->
+                        <PsCard />
+                    </div>
+                    <div class="col-sm-12 col-md-6 my-2">
+                        <!-- single item -->
+                        <PsCard />
+                    </div>
+                    <div class="col-sm-12 col-md-6 my-2">
+                        <!-- single item -->
+                        <PsCard />
+                    </div>
+                    <div class="col-sm-12 col-md-6 my-2">
+                        <!-- single item -->
+                        <PsCard />
+                    </div>
+                </div>
+
             </div>
         </div>
     </seciton>
