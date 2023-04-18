@@ -17,6 +17,12 @@ import VehicleTrackerView from '../views/VehicleTrackerView.vue'
 import VehicleQrView from '../views/VehicleQrView.vue'
 import VehiclesPpsrView from '../views/VehiclesPpsrView.vue'
 import VehicleCReportView from '../views/VehicleCReportView.vue'
+import MaintenanceListView from '../views/MaintenanceListView.vue'
+import MaintenanceWorkView from '../views/MaintenanceWorkView.vue'
+import TicketView from '@/views/TicketView.vue'
+import AddTicket from '@/views/AddTicket.vue'
+import InfragmentOutView from '@/views/InfragmentOutView.vue'
+import InfragmentNomView from '@/views/InfragmentNomView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -117,6 +123,36 @@ const router = createRouter({
       path: '/vehiclecondtion',
       name: 'VehicleCReportView',
       component: VehicleCReportView
+    },
+    {
+      path: '/maintenancelist',
+      name: 'MaintenanceListView',
+      component: MaintenanceListView
+    },
+    {
+      path: '/maintenancework',
+      name: 'MaintenanceWorkView',
+      component: MaintenanceWorkView
+    },
+    {
+      path: '/ticket',
+      name: 'TicketView',
+      component: TicketView
+    },
+    {
+      path: '/addticket',
+      name: 'AddTicket',
+      component: AddTicket
+    },
+    {
+      path: '/infragmentout',
+      name: 'InfragmentOutView',
+      component: InfragmentOutView
+    },
+    {
+      path: '/infragmentnom',
+      name: 'InfragmentNomView',
+      component: InfragmentNomView
     }
   ]
 })
