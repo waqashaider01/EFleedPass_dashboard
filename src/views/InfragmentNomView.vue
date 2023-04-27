@@ -2,7 +2,7 @@
     <div class="container pt-3">
         <div class="row mt-5 mb-3 mx-1 align-items-center sub-head-row ">
             <div class="col-lg-6">
-                <h5>Infringements - Nominated</h5>
+                <h5>Infringements - Nominatednp</h5>
             </div>
             <div class="col-lg-6 d-flex my-2 justify-content-evenly align-items-center">
 
