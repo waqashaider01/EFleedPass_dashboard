@@ -23,6 +23,10 @@ import TicketView from '@/views/TicketView.vue'
 import AddTicket from '@/views/AddTicket.vue'
 import InfragmentOutView from '@/views/InfragmentOutView.vue'
 import InfragmentNomView from '@/views/InfragmentNomView.vue'
+import InfragmentView from '@/views/InfragmentView.vue'
+import TollNoticeView from '@/views/TollNoticeView.vue'
+import OutInvoiceView from '@/views/OutInvoiceView.vue'
+import StatementView from '@/views/StatementView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -153,6 +157,26 @@ const router = createRouter({
       path: '/infragmentnom',
       name: 'InfragmentNomView',
       component: InfragmentNomView
+    },
+    {
+      path: '/infragment',
+      name: 'InfragmentView',
+      component: InfragmentView
+    },
+    {
+      path: '/tollnotice',
+      name: 'TollNoticeView',
+      component: TollNoticeView
+    },
+    {
+      path: '/outinvoice',
+      name: 'OutInvoiceView',
+      component: OutInvoiceView
+    },
+    {
+      path: '/statement',
+      name: 'StatementView',
+      component: StatementView
     }
   ]
 })
