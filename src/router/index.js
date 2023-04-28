@@ -27,6 +27,7 @@ import InfragmentView from '@/views/InfragmentView.vue'
 import TollNoticeView from '@/views/TollNoticeView.vue'
 import OutInvoiceView from '@/views/OutInvoiceView.vue'
 import StatementView from '@/views/StatementView.vue'
+import ReportView from '@/views/ReportView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -177,6 +178,11 @@ const router = createRouter({
       path: '/statement',
       name: 'StatementView',
       component: StatementView
+    },
+    {
+      path: '/report',
+      name: 'ReportView',
+      component: ReportView
     }
   ]
 })
