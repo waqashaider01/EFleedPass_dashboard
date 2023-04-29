@@ -13,24 +13,27 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+
+                 
+
+                        <router-link to="/vehicletracker">
                             <img src="assets/img/icons/codicon_location.svg" alt="icon" />
-                        </a>
+                        </router-link>
                     </li>
                     <li>
-                        <a href="#">
+                        <router-link to="/vehicleppsr">
                             <img src="assets/img/icons/check-circle-outlined.svg" alt="icon" />
-                        </a>
+                        </router-link>
                     </li>
                     <li>
-                        <a href="#">
+                        <router-link to="/vehiclecondtion">
                             <img src="assets/img/icons/bullet-list-20-regular.svg" alt="icon" />
-                        </a>
+                        </router-link>
                     </li>
                     <li>
-                        <a href="#">
+                        <router-link to="">
                             <img src="assets/img/icons/delete.svg" alt="icon" />
-                        </a>
+                        </router-link>
                     </li>
                 </ul>
             </div>

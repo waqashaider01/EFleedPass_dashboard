@@ -40,14 +40,13 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="assets/img/icons/qr-code-line.svg" alt="icon" />
-                                </a>
+                                <router-link to="/vehicleqr"><img src="assets/img/icons/qr-code-line.svg" alt="icon" /></router-link>  
+                              
                             </li>
                             <li>
-                                <a href="#">
+                               <router-link to="/">
                                     <img src="assets/img/icons/plus.svg" alt="icon" />
-                                </a>
+                              </router-link> 
                             </li>
                         </ul>
                     </div>
