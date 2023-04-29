@@ -33,12 +33,12 @@
                 <!-- corporate from -->
                 <div class="corporate_from d-sm-block d-md-grid">
                     <div class="corporate_single_info">
-                        <label for="Rental">Subject Name: *</label>
-                        <input type="text" class="form-control" id="Rental" placeholder="Subject Name" />
+                        <label for="Rental">Serial Number: *</label>
+                        <input type="text" class="form-control" id="Rental" placeholder="Serial Number" />
                     </div>
                     <div class="corporate_single_info">
-                        <label for="RSelect">Product/Service: *</label>
-                        <input type="text" class="form-control" id="RSelect" placeholder="Search Product/Service" />
+                        <label for="RSelect">Cost: *</label>
+                        <input type="text" class="form-control" id="RSelect" placeholder="Cost" />
                     </div>
                     <div class="corporate_single_info upload p-2 d-flex">
                         <label for="file" @click="openFileBrowser">
@@ -46,12 +46,13 @@
                         </label>
                         <input type="file" ref="fileInput" class="d-none" id="file" @change="handleFileUpload">
                         <p class="mx-2 mt-2">{{ selectedFile ? selectedFile.name : 'No file chosen' }}</p>
+
                     </div>
 
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="tarea p-4">
+                        <div class="p-4">
                             <label for="duedatetime">Description: </label>
                             <div class="form-group">
 
@@ -64,24 +65,15 @@
                         </div>
                     </div>
                 </div>
-                <div class=" d-flex justify-content-end mb-3 mx-2">
-
-
-                    <button type="submit" class="btn Cancel" style=" background: #F4F4F4 !important;
-                                    border-radius: 4px !important;">
-                        Cancel
+                <div class="corporate_btns">
+                    <button type="submit" class="btns">
+                        <img src="assets/img/icons/arrow-reset.png" alt="arrow-reset" />
+                        Reset
                     </button>
-                    <button type="submit" class="btn Send mx-2" style=" background: #2388FF !important;
-                                border-radius: 4px !important; color:#fff">
-
-                        Send
+                    <button type="submit" class="btns confirm">
+                        <img src="assets/img/icons/circle-check.png" alt="circle-checkt" />
+                        Confirm Details
                     </button>
-                    <button type="submit" class="btn Save  mx-2" style=" background: #083EA1 !important;
-                            border-radius: 4px !important; color:#fff">
-
-                        Send with copy to sell
-                    </button>
-
                 </div>
             </div>
         </div>
@@ -133,9 +125,5 @@ export default {
 .upload {
     margin: 14px 0px 39px 7px !important;
 
-}
-
-.tarea {
-    grid-template-columns: repeat(1, 1fr) !important;
 }
 </style>

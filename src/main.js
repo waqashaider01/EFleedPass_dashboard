@@ -5,6 +5,7 @@ import router from './router'
 import './assets/main.css'
 
 import { Chart, registerables } from 'chart.js'
+
 Chart.register(...registerables)
 
 const app = createApp(App)

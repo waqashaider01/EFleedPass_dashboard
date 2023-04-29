@@ -10,6 +10,9 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "chart.js": "^4.3.0",
+    "matplotlib": "^1.0.0",
+    "numpy": "^0.0.1",
     "vue": "^3.2.47",
     "vue-chartjs": "^5.2.0",
     "vue-circle-progress": "^0.0.2",

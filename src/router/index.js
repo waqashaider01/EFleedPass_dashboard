@@ -28,6 +28,8 @@ import TollNoticeView from '@/views/TollNoticeView.vue'
 import OutInvoiceView from '@/views/OutInvoiceView.vue'
 import StatementView from '@/views/StatementView.vue'
 import ReportView from '@/views/ReportView.vue'
+import AssetsListView from '@/views/AssetsListView.vue'
+import AddAssetView from '@/views/AddAssetView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -183,6 +185,16 @@ const router = createRouter({
       path: '/report',
       name: 'ReportView',
       component: ReportView
+    },
+    {
+      path: '/assetlist',
+      name: 'AssetsListView',
+      component: AssetsListView
+    },
+    {
+      path: '/addasset',
+      name: 'AddAssetView',
+      component: AddAssetView
     }
   ]
 })
