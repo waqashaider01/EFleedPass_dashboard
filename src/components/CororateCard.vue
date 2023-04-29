@@ -7,14 +7,14 @@
             <div class="rentals__head-edit">
                 <ul>
                     <li>
-                        <a href="#">
-                            <img src="assets/img/icons/carbon_view.svg" alt="icon" />
-                        </a>
+                       <router-link to="/completecorporaterental"><img src="assets/img/icons/carbon_view.svg" alt="icon" /></router-link>
+                            
+                      
                     </li>
                     <li>
-                        <a href="#">
-                            <img src="assets/img/icons/edit-line.svg" alt="icon" />
-                        </a>
+                         <router-link to="/updatecorporation"> <img src="assets/img/icons/edit-line.svg" alt="icon" /></router-link>
+                          
+                  
                     </li>
                 </ul>
             </div>

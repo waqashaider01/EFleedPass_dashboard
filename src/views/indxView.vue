@@ -21,31 +21,7 @@
                         </button>
                     </div>
                     <!-- filter icons -->
-                    <div class="dashboard__filter-icons">
-                        <ul>
-                            <li>
-                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top"
-                                    data-bs-custom-class="custom-tooltip" data-bs-title="View Corporate Lists">
-                                    <img src="assets/img/icons/carbon_view.png" alt="icon" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/img/icons/plus.svg" alt="icon" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/img/icons/document.svg" alt="icon" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/img/icons/clipboard.svg" alt="icon" />
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                  <CorFliter/>
                 </div>
             </div>
             <div class="dashboard__content">
@@ -64,11 +40,13 @@
 <script>
 
 import CorporateCard from '../components/CororateCard.vue'
+import CorFliter from '../components/CorFliter.vue'
 
 export default {
     name: 'IndxView',
     components: {
-        CorporateCard // Register the component here
+        CorporateCard,
+        CorFliter // Register the component here
     },
     // Your component code here
 }

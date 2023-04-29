@@ -100,7 +100,7 @@
 
         <div class="me-3">
 
-         <router-link to="/createcorporaterental"> <img class="me-2" src="img/fluent_building.png" alt="">Corporate Rentals</router-link>
+         <router-link to="/indx"> <img class="me-2" src="img/fluent_building.png" alt="">Corporate Rentals</router-link>
 
         </div>
 

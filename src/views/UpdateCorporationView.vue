@@ -16,9 +16,9 @@
                     <div class="dashboard__filter-icons">
                         <ul>
                             <li>
-                                <a href="#">
-                                    <img src="assets/img/icons/carbon_view.png" alt="icon" />
-                                </a>
+                                
+                                    <router-link to="/indx"><img src="assets/img/icons/carbon_view.png" alt="icon" /></router-link>
+                               
                             </li>
                         </ul>
                     </div>
