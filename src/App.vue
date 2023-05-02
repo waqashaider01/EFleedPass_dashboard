@@ -9,7 +9,7 @@
 
         <div class="col-lg-3 col-sm-12 mb-lg-0 mb-2">
 
-          <router-link to="/"><img src="img/efl-logo.png" alt="logo"></router-link>
+          <router-link to="/"><img src="../public/img/efl-logo.png" alt="logo"></router-link>
 
         </div>
 
