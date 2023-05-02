@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-parsing-error -->
 <template>
   <div class="container my-3">
     <!-- main menu start-->
@@ -83,7 +84,7 @@
           <div class="card mb-3">
             <div class="row g-0">
               <div class="col-md-1 text-center">
-                <img src="../assets/img/Rectangle 2905.png" class="img-fluid rounded-start" alt="...">
+                <img src="../assets/img/fleet-manager.png" class="img-fluid rounded-start" alt="...">
 
               </div>
               <div class="col-md-11 ps-2">
@@ -183,7 +184,7 @@
                     <div class="modal fade" id="staticBackdrop">
                       <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
-                          <img src="../assets/img/My Location.png">
+                          <img src="../assets/img/mylocation.png">
                         </div>
                       </div>
                     </div>
@@ -268,7 +269,7 @@
         </div>
         <div class="col-lg-6">
           <p>License Front Picture:</p>
-          <img src="../assets/img/drivers_license_TS 1.png">
+          <img src="../assets/img/drivers_l.png">
         </div>
       </div>
 
@@ -409,8 +410,7 @@
               <div class="row mt-4">
                 <div class="col-lg">
                   <p class="n">
-                  <h6><b>RA #2016-000-39</b></h6>
-                  </p>
+                  <h6><b>RA #2016-000-39</b></h6></p>
                   <p class="n">Start Date:&nbsp;<span class="text-muted">&nbsp;08/04/2016&nbsp;09:00</span></p>
                   <p class="n">End Date:&nbsp;<span class="text-muted">&nbsp;08/04/2016&nbsp;09:00</span>
                   </p>
@@ -829,7 +829,7 @@
         <div class="main-card p-0 mt-3">
           <div class="row align-items-center">
             <div class="col-md-6 " id="i1">
-              <img src="../assets/img\White-Tesla-Model-S-PNG-File 2.png" class="img-fluid img-bg" width="100%">
+              <img src="../assets/img/white_car.png" class="img-fluid img-bg" width="100%">
             </div>
             <div class="col-md-6">
               <div class="card-body">
@@ -947,7 +947,7 @@
                   <div class="card mt-5 mb-3 border-0">
                     <div class="row g-0">
                       <div class="col-md-3 align-self-center   img-bg">
-                        <img src="../assets/img\car full img.png" class="img-fluid ms-4">
+                        <img src="../assets/img\car-full-img.png" class="img-fluid ms-4">
                       </div>
                       <div class="col-md-6">
                         <div class="ms-3">

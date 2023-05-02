@@ -47,7 +47,7 @@
                 <!-- Vehicles Person Info -->
                 <div class="vehicles__person-info">
                     <div class="vehicles__person-info-img">
-                        <img src="assets/img/fleet-manager.png" alt="fleet-manager" />
+                        <img src="../assets/img/fleet-manager.png" alt="fleet-manager" />
                     </div>
                     <div class="vehicles__person-info-text table-responsive">
                         <table class="table">

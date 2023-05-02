@@ -58,7 +58,7 @@
                             </div>
                         </div>
                         <div class="tracker__bottom">
-                            <img src="assets/img/cars/big.png" class="imgCar" alt="car" />
+                            <img src="../assets/img/cars/big.png" class="imgCar" alt="car" />
                         </div>
                     </div>
                     <div class="vehicle__tracker-text">

@@ -29,7 +29,7 @@
                 <div class="corporate__single__items">
                     <div class="corporate__single__items_header">
                         <div class="person__info">
-                            <img src="assets/img/linda-roy.png" alt="icon" />
+                            <img src="../assets/img/linda-roy.png" alt="icon" />
                             <h4>Linda Roy</h4>
                         </div>
                         <!-- filter icons -->
@@ -62,7 +62,7 @@
                     </div>
                     <div class="corporate_single__item_body d-sm-block d-md-grid">
                         <div class="corporate_item_img">
-                            <img src="assets/img/unlimitate-rentails.png" alt="unlimitate-rentails" />
+                            <img src="../assets/img/unlimitate-rentails.png" alt="unlimitate-rentails" />
                         </div>
                         <div class="corporate_body_text">
                             <h4>Personal Information</h4>
@@ -79,7 +79,7 @@
                 <div class="corporate__single__items">
                     <div class="corporate__single__items_header">
                         <div class="person__info">
-                            <img src="assets/img/lisa-franco.png" alt="lisa-franco" />
+                            <img src="../assets/img/lisa-franco.png" alt="lisa-franco" />
                             <h4>Lisa Franco</h4>
                         </div>
                         <!-- filter icons -->
@@ -110,7 +110,7 @@
                     </div>
                     <div class="corporate_single__item_body d-sm-block d-md-grid">
                         <div class="corporate_item_img corporate_img_bg">
-                            <img src="assets/img/Simba_Final.png" alt="Simba_Fina" />
+                            <img src="../assets/img/Simba_Final.png" alt="Simba_Fina" />
                         </div>
                         <div class="corporate_body_text">
                             <h4>Personal Information</h4>
