@@ -10,25 +10,29 @@
         <!-- dashboard filter -->
         <div class="container">
             <div class="dashboard__filter">
-                <h4>Payment Transaction for last 60 days</h4>
-                <div class="dashboard__filter-right">
+                <h4>Monthly Statements</h4>
+                <div class="dashboard__filter-right ms-4 ps-5">
                     <!-- search bar -->
-                    <div class="dashboard__filter-search">
-                        <input type="search" placeholder="Search by Driver" />
-                        <button type="submit">
+                    <p class="para3">Filter by Month & Year</p>
+                    <div class="d-flex ">
+                        <select class="form-select stSelect mx-2" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <select class="form-select stSelect mx-2" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <button class="btn mx-2" type="submit">
                             <img src="assets/img/icons/Search.png" alt="icon" />
                         </button>
+                        <!-- -->
                     </div>
-                    <!-- filter icons -->
-                    <div class="dashboard__filter-icons">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/img/icons/word-list-blue.svg" alt="icon" />
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+
                 </div>
             </div>
             <!-- PPSR Search Item -->
@@ -38,22 +42,22 @@
                 <!-- single item -->
                 <div class="row">
                     <div class="col-sm-12 col-md-6 my-2">
-                        <TollNCard />
+                        <MoStateMentCard />
                     </div>
                     <div class="col-sm-12 col-md-6 my-2">
-                        <TollNCard />
+                        <MoStateMentCard />
                     </div>
                     <div class="col-sm-12 col-md-6 my-2">
-                        <TollNCard />
+                        <MoStateMentCard />
                     </div>
                     <div class="col-sm-12 col-md-6 my-2">
-                        <TollNCard />
+                        <MoStateMentCard />
                     </div>
                     <div class="col-sm-12 col-md-6 my-2">
-                        <TollNCard />
+                        <MoStateMentCard />
                     </div>
                     <div class="col-sm-12 col-md-6 my-2">
-                        <TollNCard />
+                        <MoStateMentCard />
                     </div>
                 </div>
 
@@ -65,22 +69,27 @@
 </template>
   
 <style>
-.tabcontent {
-    display: none;
-}
+.para3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
 
-.tabcontent .active {
-    display: block !important;
+    /* Black 80% */
+
+    color: #2E2E2E;
 }
 </style>
   
 <script>
-import TollNCard from '../components/TollNCard.vue';
+import MoStateMentCard from '../components/MoStatementCard.vue';
 
 export default {
-    name: 'TollNoticeView',
+    name: 'MonthlyStatementView',
     components: {
-        TollNCard, // Register the component here
+        MoStateMentCard, // Register the component here
     },
 }
 
