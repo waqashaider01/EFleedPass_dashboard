@@ -18,7 +18,7 @@
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/icons/document.svg" alt="icon" />
+                                    <img src="../assets/img/icons/document.svg" alt="icon" />
                                 </a>
                             </li>
                         </ul>
@@ -89,7 +89,7 @@
                     </div>
                     <div class="vehicles__person-info-btns">
                         <button class="btns">
-                            <img src="assets/img/icons/carbon_money.png" alt="carbon_money" />
+                            <img src="../assets/img/icons/carbon_money.png" alt="carbon_money" />
                             Pay Now
                         </button>
                     </div>

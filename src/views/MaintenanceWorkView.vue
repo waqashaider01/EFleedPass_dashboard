@@ -17,7 +17,7 @@
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/icons/carbon_view.png" alt="icon" />
+                                    <img src="../assets/img/icons/carbon_view.png" alt="icon" />
                                 </a>
                             </li>
                         </ul>
@@ -97,11 +97,11 @@
 
                     <div class="btns_group">
                         <button type="submit" class="btns mx-2">
-                            <img src="assets/img/icons/arrow-reset.png" alt="arrow-reset" />
+                            <img src="../assets/img/icons/arrow-reset.png" alt="arrow-reset" />
                             Reset
                         </button>
                         <button type="submit" class="btns confirm mx-2">
-                            <img src="assets/img/icons/circle-check.png" alt="circle-checkt" />
+                            <img src="../assets/img/icons/circle-check.png" alt="circle-checkt" />
                             Confirm Details
                         </button>
                     </div>

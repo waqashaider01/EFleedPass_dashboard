@@ -17,17 +17,17 @@
                     <ul>
                         <li>
                             <a href="#">
-                                <img src="assets/img/icons/file-word-outlined.svg" alt="icon" />
+                                <img src="../assets/img/icons/file-word-outlined.svg" alt="icon" />
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="assets/img/icons/fluent_print.svg" alt="icon" />
+                                <img src="../assets/img/icons/fluent_print.svg" alt="icon" />
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="assets/img/icons/car-blue-icon.svg" alt="icon" />
+                                <img src="../assets/img/icons/car-blue-icon.svg" alt="icon" />
                             </a>
                         </li>
                     </ul>

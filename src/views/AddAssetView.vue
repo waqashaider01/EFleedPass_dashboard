@@ -17,7 +17,7 @@
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/icons/carbon_view.png" alt="icon" />
+                                    <img src="../assets/img/icons/carbon_view.png" alt="icon" />
                                 </a>
                             </li>
                         </ul>
@@ -67,11 +67,11 @@
                 </div>
                 <div class="corporate_btns">
                     <button type="submit" class="btns">
-                        <img src="assets/img/icons/arrow-reset.png" alt="arrow-reset" />
+                        <img src="../assets/img/icons/arrow-reset.png" alt="arrow-reset" />
                         Reset
                     </button>
                     <button type="submit" class="btns confirm">
-                        <img src="assets/img/icons/circle-check.png" alt="circle-checkt" />
+                        <img src="../assets/img/icons/circle-check.png" alt="circle-checkt" />
                         Confirm Details
                     </button>
                 </div>

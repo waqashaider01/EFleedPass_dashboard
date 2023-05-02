@@ -9,7 +9,7 @@
                 <ul>
                     <li>
                         <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                            <img src="assets/img/icons/edit-line.svg" alt="icon" />
+                            <img src="../assets/img/icons/edit-line.svg" alt="icon" />
                         </a>
                     </li>
                     <li>
@@ -17,22 +17,22 @@
                  
 
                         <router-link to="/vehicletracker">
-                            <img src="assets/img/icons/codicon_location.svg" alt="icon" />
+                            <img src="../assets/img/icons/codicon_location.svg" alt="icon" />
                         </router-link>
                     </li>
                     <li>
                         <router-link to="/vehicleppsr">
-                            <img src="assets/img/icons/check-circle-outlined.svg" alt="icon" />
+                            <img src="../assets/img/icons/check-circle-outlined.svg" alt="icon" />
                         </router-link>
                     </li>
                     <li>
                         <router-link to="/vehiclecondtion">
-                            <img src="assets/img/icons/bullet-list-20-regular.svg" alt="icon" />
+                            <img src="../assets/img/icons/bullet-list-20-regular.svg" alt="icon" />
                         </router-link>
                     </li>
                     <li>
                         <router-link to="">
-                            <img src="assets/img/icons/delete.svg" alt="icon" />
+                            <img src="../assets/img/icons/delete.svg" alt="icon" />
                         </router-link>
                     </li>
                 </ul>
@@ -41,7 +41,7 @@
         <!-- single__vechicles-body -->
         <div class="single__vechicles-body">
             <div class="vechicles__body-img">
-                <img src="assets/img/cars/White-Tesla-Model-S-PNG-File 1.png" alt="cars" />
+                <img src="../assets/img/cars/White-Tesla-Model-S-PNG-File 1.png" alt="cars" />
             </div>
             <div class="vechicles__body-text">
                 <div class="vechicles__body-textSolo">
@@ -57,15 +57,15 @@
                     <div class="vechicles__body-list">
                         <ul>
                             <li>
-                                <img src="assets/img/icons/fire-outlined.svg" alt="icon" />
+                                <img src="../assets/img/icons/fire-outlined.svg" alt="icon" />
                                 80%
                             </li>
                             <li>
-                                <img src="assets/img/icons/add-road.svg" alt="icon" />
+                                <img src="../assets/img/icons/add-road.svg" alt="icon" />
                                 73134.43
                             </li>
                             <li>
-                                <img src="assets/img/icons/settings-line.svg" alt="icon" />
+                                <img src="../assets/img/icons/settings-line.svg" alt="icon" />
                                 OK
                             </li>
                         </ul>

@@ -16,7 +16,7 @@
                     <div class="dashboard__filter-icons">
                         <ul>
                             <li>
-                                 <router-link to="/indx"><img src="assets/img/icons/carbon_view.png" alt="icon" /></router-link>
+                                 <router-link to="/indx"><img src="../assets/img/icons/carbon_view.png" alt="icon" /></router-link>
                             </li>
                         </ul>
                     </div>
@@ -65,11 +65,11 @@
                     </div>
                     <div class="btns_group">
                         <button type="submit" class="btns">
-                            <img src="assets/img/icons/arrow-reset.png" alt="arrow-reset" />
+                            <img src="../assets/img/icons/arrow-reset.png" alt="arrow-reset" />
                             Reset
                         </button>
                         <button type="submit" class="btns confirm">
-                            <img src="assets/img/icons/circle-check.png" alt="circle-checkt" />
+                            <img src="../assets/img/icons/circle-check.png" alt="circle-checkt" />
                             Confirm Details
                         </button>
                     </div>

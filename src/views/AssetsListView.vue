@@ -18,7 +18,7 @@
                     <div class="dashboard__filter-search">
                         <input type="search" placeholder="Search..." />
                         <button type="submit">
-                            <img src="assets/img/icons/Search.png" alt="icon" />
+                            <img src="../assets/img/icons/Search.png" alt="icon" />
                         </button>
                     </div>
                     <!-- filter icons -->
@@ -26,13 +26,13 @@
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/icons/plus.svg" alt="icon" />
+                                    <img src="../assets/img/icons/plus.svg" alt="icon" />
                                 </a>
                             </li>
 
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/icons/qr-code-line.svg" alt="icon" />
+                                    <img src="../assets/img/icons/qr-code-line.svg" alt="icon" />
                                 </a>
                             </li>
 

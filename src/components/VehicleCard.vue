@@ -6,24 +6,24 @@
             <ul>
                 <li>
                     <a href="#">
-                        <img src="assets/img/icons/edit-line.svg" alt="vehicle-edit" />
+                        <img src="../assets/img/icons/edit-line.svg" alt="vehicle-edit" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="assets/img/icons/bx_block.svg" alt="bx_block" />
+                        <img src="../assets/img/icons/bx_block.svg" alt="bx_block" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="assets/img/icons/carbon_view.svg" alt="carbon_view" />
+                        <img src="../assets/img/icons/carbon_view.svg" alt="carbon_view" />
                     </a>
                 </li>
             </ul>
         </div>
         <div class="model__content">
             <div class="model__image">
-                <img src="assets/img/car-img.png" alt="car-img" />
+                <img src="../assets/img/car-img.png" alt="car-img" />
             </div>
             <div class="model__text">
                 <h3>Rego: ENX04M</h3>

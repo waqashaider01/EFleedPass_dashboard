@@ -7,12 +7,12 @@
             <div class="rentals__head-edit">
                 <ul>
                     <li>
-                       <router-link to="/completecorporaterental"><img src="assets/img/icons/carbon_view.svg" alt="icon" /></router-link>
+                       <router-link to="/completecorporaterental"><img src="../assets/img/icons/carbon_view.svg" alt="icon" /></router-link>
                             
                       
                     </li>
                     <li>
-                         <router-link to="/updatecorporation"> <img src="assets/img/icons/edit-line.svg" alt="icon" /></router-link>
+                         <router-link to="/updatecorporation"> <img src="../assets/img/icons/edit-line.svg" alt="icon" /></router-link>
                           
                   
                     </li>
@@ -22,7 +22,7 @@
         <!-- body -->
         <div class="rentals__body">
             <div class="rentals__logo">
-                <img src="assets/img/rentals-brand.png" alt="brand-img" />
+                <img src="../assets/img/rentals-brand.png" alt="brand-img" />
             </div>
             <div class="rentals__info">
                 <table>

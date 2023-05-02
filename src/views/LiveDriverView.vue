@@ -24,7 +24,7 @@
                 <div class="main-card padding-card">
                     <div class="row bg-row p-2">
                         <div class="col-lg-7 d-flex align-items-center">
-                            <img class="me-2" src="img/sam.png" alt="sam">
+                            <img class="me-2" src="../img/sam.png" alt="sam">
                             <h5>Example heading <span class="badge">Added</span></h5>
                         </div>
                         <div class="col-lg-5">

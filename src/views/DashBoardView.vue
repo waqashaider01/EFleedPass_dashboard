@@ -155,7 +155,7 @@
           </div>
 
           <div class="flex-grow-1 align-self-end">
-            <img src="img/iphone-scan.png" alt="scan" class="img-fluid">
+            <img src="../assets/img/iphone-scan.png" alt="scan" class="img-fluid">
           </div>
 
 

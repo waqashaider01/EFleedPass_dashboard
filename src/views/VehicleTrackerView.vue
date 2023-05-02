@@ -27,7 +27,7 @@
                                     <div class="box"><span></span></div>
                                     <div class="text">
                                         <div class="text__value"></div>
-                                        <img src="assets/img/icons/meter.svg" alt="icon" />
+                                        <img src="../assets/img/icons/meter.svg" alt="icon" />
                                         <small>RPM</small>
                                     </div>
                                 </div>
@@ -39,7 +39,7 @@
                                     <div class="box"><span></span></div>
                                     <div class="text">
                                         <div class="text__value"></div>
-                                        <img src="assets/img/icons/meter.svg" alt="icon" />
+                                        <img src="../assets/img/icons/meter.svg" alt="icon" />
                                         <small> Km/h </small>
                                     </div>
                                 </div>
@@ -51,7 +51,7 @@
                                     <div class="box"><span></span></div>
                                     <div class="text">
                                         <div class="text__value"></div>
-                                        <img src="assets/img/icons/meter.svg" alt="icon" />
+                                        <img src="../assets/img/icons/meter.svg" alt="icon" />
                                         <small> Fule </small>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@
                 <div class="vehicle__tracker-map">
                     <div class="map__viewer">
                         <span>
-                            <img src="assets/img/icons/location-blue.svg" alt="location" />
+                            <img src="../assets/img/icons/location-blue.svg" alt="location" />
                         </span>
                         <p>29 Budapest Street, Rooty Hill NSW, Australia</p>
                     </div>

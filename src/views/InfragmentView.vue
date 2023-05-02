@@ -92,7 +92,7 @@
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/icons/carbon_view.png" alt="icon" />
+                                    <img src="../assets/img/icons/carbon_view.png" alt="icon" />
                                 </a>
                             </li>
                         </ul>

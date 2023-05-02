@@ -4,12 +4,12 @@
         <div class="model__head">
             <h4>ENX04M (#54566)</h4>
             <a href="#">
-                <img src="assets/img/icons/location-blue.svg" alt="icon" />
+                <img src="../assets/img/icons/location-blue.svg" alt="icon" />
             </a>
         </div>
         <div class="model__content">
             <div class="model__image">
-                <img src="assets/img/cars/My project 1.png" alt="car" />
+                <img src="../assets/img/cars/My project 1.png" alt="car" />
             </div>
             <div class="model__text">
                 <h3>Logbook Information</h3>

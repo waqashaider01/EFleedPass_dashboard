@@ -17,7 +17,7 @@
                     <div class="dashboard__filter-search">
                         <input type="search" placeholder="Search..." />
                         <button type="submit">
-                            <img src="assets/img/icons/Search.svg" alt="icon" />
+                            <img src="../assets/img/icons/Search.svg" alt="icon" />
                         </button>
                     </div>
                     <!-- filter icons -->
@@ -38,22 +38,22 @@
                             <ul>
                                 <li>
                                   
-                                         <router-link to="/assignedvehicle"><img src="assets/img/icons/i-icon.svg" alt="icon" /></router-link>
+                                         <router-link to="/assignedvehicle"><img src="../assets/img/icons/i-icon.svg" alt="icon" /></router-link>
                                  
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="assets/img/icons/edit-line.svg" alt="icon" />
+                                        <img src="../assets/img/icons/edit-line.svg" alt="icon" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="assets/img/icons/delete.svg" alt="icon" />
+                                        <img src="../assets/img/icons/delete.svg" alt="icon" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="assets/img/icons/login.svg" alt="icon" />
+                                        <img src="../assets/img/icons/login.svg" alt="icon" />
                                     </a>
                                 </li>
                             </ul>
@@ -87,22 +87,22 @@
                             <ul>
                                 <li>
                                     <a href="#">
-                                        <img src="assets/img/icons/i-icon.svg" alt="icon" />
+                                        <img src="../assets/img/icons/i-icon.svg" alt="icon" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="assets/img/icons/edit-line.svg" alt="icon" />
+                                        <img src="../assets/img/icons/edit-line.svg" alt="icon" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="assets/img/icons/delete.svg" alt="icon" />
+                                        <img src="../assets/img/icons/delete.svg" alt="icon" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="assets/img/icons/login.svg" alt="icon" />
+                                        <img src="../assets/img/icons/login.svg" alt="icon" />
                                     </a>
                                 </li>
                             </ul>
