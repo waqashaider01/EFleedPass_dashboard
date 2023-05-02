@@ -150,7 +150,7 @@
         <div class="me-4">
           <i class="fa-solid fa-ellipsis blu me-2" @click="toggleMenu" id="assets-btn"></i>
           <div v-if="isMenuOpen">
-            <div id="assets-menu" class="dropdown-menu1 main-card">
+            <div id="assets-menu" class="dropdown-menu1  main-card">
               <!-- menu items go here -->
               <p><router-link to="/home"><img src="img/invoice.png"> Asset Invoices</router-link></p>
               <p><router-link to="/home"><img src="img/dollar.png"> Infringements</router-link></p>
@@ -170,6 +170,10 @@
 </template>
 <style>
 .dropdown-menu1 {
+      display: none;
+    position: absolute !important;
+    z-index: 2 !important;
+    right: 72px !important;
   display: block !important;
 }
 </style>
