@@ -155,7 +155,7 @@
           </div>
 
           <div class="flex-grow-1 align-self-end">
-            <img src="../assets/img/iphone-scan.png" alt="scan" class="img-fluid">
+            <img :src="imageUrl" alt="scan" class="img-fluid">
           </div>
 
 
@@ -227,7 +227,7 @@
 
             <div class="col us-profile mt-lg-0 mt-3">
 
-              <div class="text-center"><img class="pet" src="img/pp.jpg" alt=""></div>
+              <div class="text-center"><img class="pet" src="../assets/img/pp.jpg" alt=""></div>
 
               <h6 class="text-secondary mt-2 text-center">Peter Herbert Barnaba</h6>
 
@@ -235,7 +235,7 @@
 
             <div class="col us-profile mt-lg-0 mt-3">
 
-              <div class="text-center"><img class="pet" src="img/lisa.jpg" alt=""></div>
+              <div class="text-center"><img class="pet" src="../assets/img/lisa.jpg" alt=""></div>
 
               <h6 class="text-secondary mt-2 text-center">Lisa</h6>
 
@@ -243,7 +243,7 @@
 
             <div class="col us-profile mt-lg-0 mt-3">
 
-              <div class="text-center"><img class="pet" src="img/chri.jpg" alt=""></div>
+              <div class="text-center"><img class="pet" src="../assets/img/chri.jpg" alt=""></div>
 
               <h6 class="text-secondary mt-2 text-center">Chris Patt</h6>
 
@@ -251,7 +251,7 @@
 
             <div class="col us-profile mt-lg-0 mt-3">
 
-              <div class="text-center"><img class="pet" src="img/julie.jpg" alt=""></div>
+              <div class="text-center"><img class="pet" src="../assets/img/julie.jpg" alt=""></div>
 
               <h6 class="text-secondary mt-2 text-center">Julie Roberts</h6>
 
@@ -259,7 +259,7 @@
 
             <div class="col us-profile mt-lg-0 mt-3">
 
-              <div class="text-center"><img class="pet" src="img/kris.jpg" alt=""></div>
+              <div class="text-center"><img class="pet" src="../assets/img/kris.jpg" alt=""></div>
 
               <h6 class="text-secondary mt-2 text-center">Kristen</h6>
 
@@ -273,7 +273,7 @@
 
             <div class="col us-profile mt-lg-0 mt-3">
 
-              <div class="text-center"><img class="pet" src="img/peteer.jpg" alt=""></div>
+              <div class="text-center"><img class="pet" src="../assets/img/peteer.jpg" alt=""></div>
 
               <h6 class="text-secondary mt-2 text-center">Peter Herbert Barnaba</h6>
 
@@ -281,7 +281,7 @@
 
             <div class="col us-profile mt-lg-0 mt-3">
 
-              <div class="text-center"><img class="pet" src="img/lisaa.jpg" alt=""></div>
+              <div class="text-center"><img class="pet" src="../assets/img/lisaa.jpg" alt=""></div>
 
               <h6 class="text-secondary mt-2 text-center">Lisa</h6>
 
@@ -289,7 +289,7 @@
 
             <div class="col us-profile mt-lg-0 mt-3">
 
-              <div class="text-center"><img class="pet" src="img/cc.jpg" alt=""></div>
+              <div class="text-center"><img class="pet" src="../assets/img/cc.jpg" alt=""></div>
 
               <h6 class="text-secondary mt-2 text-center">Chris Patt</h6>
 
@@ -297,7 +297,7 @@
 
             <div class="col us-profile mt-lg-0 mt-3">
 
-              <div class="text-center"><img class="pet" src="img/dd.jpg" alt=""></div>
+              <div class="text-center"><img class="pet" src="../assets/img/dd.jpg" alt=""></div>
 
               <h6 class="text-secondary mt-2 text-center">Julie Roberts</h6>
 
@@ -305,7 +305,7 @@
 
             <div class="col us-profile mt-lg-0 mt-3">
 
-              <div class="text-center"><img class="pet" src="img/ee.jpg" alt=""></div>
+              <div class="text-center"><img class="pet" src="../assets/img/ee.jpg" alt=""></div>
 
               <h6 class="text-secondary mt-2 text-center">Kristen</h6>
 
@@ -348,7 +348,7 @@
 
             </div>
 
-            <div class="col-lg-2"><img class="aa" src="img/aa.jpg" alt=""></div>
+            <div class="col-lg-2"><img class="aa" src="../assets/img/aa.jpg" alt=""></div>
 
           </div>
 
@@ -363,7 +363,7 @@
 
             </div>
 
-            <div class="col-lg"><img class="aa" src="img/bb.jpg" alt=""></div>
+            <div class="col-lg"><img class="aa" src="../assets/img/bb.jpg" alt=""></div>
 
           </div>
 
@@ -378,7 +378,7 @@
 
             </div>
 
-            <div class="col-lg-2"><img class="aa" src="img/aa.jpg" alt=""></div>
+            <div class="col-lg-2"><img class="aa" src="../assets/img/aa.jpg" alt=""></div>
 
           </div>
 
@@ -393,7 +393,7 @@
 
             </div>
 
-            <div class="col-lg-2"><img class="aa" src="img/bb.jpg" alt=""></div>
+            <div class="col-lg-2"><img class="aa" src="../assets/img/bb.jpg" alt=""></div>
 
           </div>
 
@@ -457,7 +457,7 @@
 
             <div class="carousel-item active cararea">
 
-              <img src="img/car.png" class=" d-block mx-auto" alt="...">
+              <img src="../assets/img/car.png" class=" d-block mx-auto" alt="...">
 
               <div class=" labal carousel-caption d-none d-lg-block ">
 
@@ -471,7 +471,7 @@
 
             <div class="carousel-item cararea">
 
-              <img src="img/car.png" class="d-block mx-auto" alt="...">
+              <img src="../assets/img/car.png" class="d-block mx-auto" alt="...">
 
               <div class="labal carousel-caption d-none d-lg-block mb-0">
 
@@ -588,5 +588,11 @@
 <script >
 export default {
   name: 'DashboardView',
+   data() {
+    return {
+      imageUrl: "../img/iphone-scan.png"
+    }
+  }
 }
+ 
 </script>

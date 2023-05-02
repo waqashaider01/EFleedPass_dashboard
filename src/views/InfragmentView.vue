@@ -9,31 +9,31 @@
         <div class="row menu-row">
             <div class="col-12 d-flex">
                 <div class="me-3">
-                    <a href="#"><img class="me-2" src="img/Dashboard.png" alt="">Dashboard </a>
+                    <a href="#"><img class="me-2" src="../assets/img/Dashboard.png" alt="">Dashboard </a>
                 </div>
                 <div class="me-3">
-                    <a href="#"><img class="me-2" src="img/fluent_building.png" alt="">Corporate Rentals </a>
+                    <a href="#"><img class="me-2" src="../assets/img/fluent_building.png" alt="">Corporate Rentals </a>
                 </div>
                 <div class="me-3">
-                    <a href="#"><img class="me-2" src="img/ri_steering-fill.png" alt="">Drivers </a>
+                    <a href="#"><img class="me-2" src="../assets/img/ri_steering-fill.png" alt="">Drivers </a>
                 </div>
                 <div class="me-3">
-                    <a href="#"><img class="me-2" src="img/fluent_vehicle-bus.png" alt="">Vehicles </a>
+                    <a href="#"><img class="me-2" src="../assets/img/fluent_vehicle-bus.png" alt="">Vehicles </a>
                 </div>
                 <div class="me-4">
-                    <a href="#"><img class="me-2" src="img/ant-design.png" alt="">Transactions </a>
+                    <a href="#"><img class="me-2" src="../assets/img/ant-design.png" alt="">Transactions </a>
                 </div>
                 <div class="me-4">
-                    <a href="#"><img class="me-2" src="img/ri_reserved.png" alt="">Reservations </a>
+                    <a href="#"><img class="me-2" src="../assets/img/ri_reserved.png" alt="">Reservations </a>
                 </div>
                 <div class="me-4">
-                    <a href="#"><img class="me-2" src="img/List.png" alt="">Statements </a>
+                    <a href="#"><img class="me-2" src="../assets/img/List.png" alt="">Statements </a>
                 </div>
                 <div class="me-4">
-                    <a href="#"><img class="me-2" src="img/codicon_graph.png" alt="">Reports </a>
+                    <a href="#"><img class="me-2" src="../assets/img/codicon_graph.png" alt="">Reports </a>
                 </div>
                 <div class="me-4">
-                    <a href="#"><img class="me-2" src="img/fluent_web-asset.png" alt="">Assets </a>
+                    <a href="#"><img class="me-2" src="../assets/img/fluent_web-asset.png" alt="">Assets </a>
                 </div>
 
             </div>
