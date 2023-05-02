@@ -1,39 +1,7 @@
 <template>
     <!--container start-->
     <div class="container my-3">
-        <div class="row menu-row">
-            <div class="col-12 d-flex">
-                <div class="me-3">
-                    <a href="#"><img class="me-2" src="img/Dashboard.png" alt="">Dashboard </a>
-                </div>
-                <div class="me-3">
-                    <a href="#"><img class="me-2" src="img/fluent_building.png" alt="">Corporate Rentals </a>
-                </div>
-                <div class="me-3">
-                    <a href="#"><img class="me-2" src="img/ri_steering-fill.png" alt="">Drivers </a>
-                </div>
-                <div class="me-3">
-                    <a href="#"><img class="me-2" src="img/fluent_vehicle-bus.png" alt="">Vehicles </a>
-                </div>
-                <div class="me-4">
-                    <a href="#"><img class="me-2" src="img/ant-design.png" alt="">Transactions </a>
-                </div>
-                <div class="me-4">
-                    <a href="#"><img class="me-2" src="img/ri_reserved.png" alt="">Reservations </a>
-                </div>
-                <div class="me-4">
-                    <a href="#"><img class="me-2" src="img/List.png" alt="">Statements </a>
-                </div>
-                <div class="me-4">
-                    <a href="#"><img class="me-2" src="img/codicon_graph.png" alt="">Reports </a>
-                </div>
-                <div class="me-4">
-                    <a href="#"><img class="me-2" src="img/fluent_web-asset.png" alt="">Assets </a>
-                </div>
-
-            </div>
-        </div>
-
+     
         <div class="subhead">
             <div class="col-lg-12">
                 <h5>Pay All Outstanding invoice</h5>
