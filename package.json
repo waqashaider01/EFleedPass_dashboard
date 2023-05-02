@@ -10,6 +10,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@fullcalendar/timegrid": "^6.1.6",
+    "@fullcalendar/vue3": "^6.1.6",
     "chart.js": "^4.3.0",
     "matplotlib": "^1.0.0",
     "numpy": "^0.0.1",
