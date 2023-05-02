@@ -147,7 +147,7 @@
 
         </div>
 
-        <div class="me-4 d-none">
+        <div class="me-4">
           <router-link to="/home">
             <i class="fa-solid fa-ellipsis blu me-2" @click="toggleMenu" id="assets-btn"></i>
           </router-link>

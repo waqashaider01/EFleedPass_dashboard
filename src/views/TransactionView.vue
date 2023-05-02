@@ -23,9 +23,14 @@
                     <div class="dashboard__filter-icons">
                         <ul>
                             <li>
-                                <a href="#">
-                                    <img src="assets/img/icons/word-list-blue.svg" alt="icon" />
-                                </a>
+
+                                <router-link to="/tollnotice">
+ <img src="assets/img/icons/word-list-blue.svg" alt="icon" />
+                                </router-link>
+
+                        
+                                   
+                             
                             </li>
                         </ul>
                     </div>
