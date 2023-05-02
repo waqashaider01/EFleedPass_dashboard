@@ -21,14 +21,17 @@
                         </p>
                         <p>ABN:NA</p>
                     </div>
-
+                    <div class="p-2 bg-white">
+                        <p class="fw-bold">Account summary</p>
+                    </div>
 
                 </div>
+
                 <div class="row">
                     <div class="col-md-12 table-responsive">
                         <table class="table ">
                             <thead class="">
-                                <tr>
+                                <tr class="trTable">
                                     <th scope="col">Description</th>
                                     <th scope="col">Amount</th>
 
@@ -74,14 +77,18 @@
 
                     </div>
                 </div>
-                <div class="p-2 bg-white">
-                    <p class="fw-bold">Transaction List</p>
+                <div class="row">
+
+                    <div class="p-2 bg-white">
+                        <p class="fw-bold">Transaction List</p>
+                    </div>
+
                 </div>
                 <div class="row">
                     <div class="col-md-12 table-responsive">
                         <table class="table ">
                             <thead class="">
-                                <tr>
+                                <tr class="trTable">
                                     <th scope="col">Date</th>
                                     <th scope="col">Description</th>
                                     <th scope="col">Amount</th>
@@ -100,6 +107,40 @@
 
 
 
+
+
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="p-2 bg-white">
+                        <p class="fw-bold">Tolls list for fleet</p>
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col-md-12 table-responsive">
+                        <table class="table ">
+                            <thead class="">
+                                <tr class="trTable">
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Amount</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+
+                                    <td> Total Payments received</td>
+
+                                    <td class="text-success">$0.00</td>
+                                </tr>
 
 
                             </tbody>
@@ -140,6 +181,11 @@
     border-radius: 4px;
     color: #fff;
     font-weight: 600;
+}
+
+.table thead {
+    border-style: hidden !important;
+    border: none !important
 }
 </style>
   
