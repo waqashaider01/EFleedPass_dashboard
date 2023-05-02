@@ -9,7 +9,7 @@
         </div>
         <div class="model__content">
             <div class="model__image">
-                <img src="../assets/img/cars/My project 1.png" alt="car" />
+                <img src="../assets/img/cars/my_car.png" alt="car" />
             </div>
             <div class="model__text">
                 <h3>Logbook Information</h3>

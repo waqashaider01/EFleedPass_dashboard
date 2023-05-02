@@ -41,7 +41,7 @@
         <!-- single__vechicles-body -->
         <div class="single__vechicles-body">
             <div class="vechicles__body-img">
-                <img src="../assets/img/cars/White-Tesla-Model-S-PNG-File 1.png" alt="cars" />
+                <img src="../assets/img/white_car.png" alt="cars" />
             </div>
             <div class="vechicles__body-text">
                 <div class="vechicles__body-textSolo">

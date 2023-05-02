@@ -918,7 +918,7 @@
                   <div class="card mt-5 mb-3 border-0">
                     <div class="row g-0">
                       <div class="col-md-3 align-self-center   img-bg">
-                        <img src="../assets/img\White-Tesla-Model-S-PNG-File 2.png" class="img-fluid rounded-start" alt="...">
+                        <img src="../assets/img\white_car.png" class="img-fluid rounded-start" alt="...">
                       </div>
                       <div class="col-md-6">
                         <div class="ms-3">
@@ -947,7 +947,7 @@
                   <div class="card mt-5 mb-3 border-0">
                     <div class="row g-0">
                       <div class="col-md-3 align-self-center   img-bg">
-                        <img src="../assets/img\car-full-img.png" class="img-fluid ms-4">
+                        <img src="../assets/img/car-full-img.png" class="img-fluid ms-4">
                       </div>
                       <div class="col-md-6">
                         <div class="ms-3">
@@ -1377,7 +1377,7 @@
           <div class="card mb-3">
             <div class="row g-0">
               <div class="col-md-4 d-flex align-items-center custom-container">
-                <img src="../assets/img/White-Tesla-Model-S-PNG-File 2.png" class="img-fluid rounded-start" alt="...">
+                <img src="../assets/img/white_car.png" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
                 <ul class="card-body">
@@ -1413,7 +1413,7 @@
           <div class="card mb-3">
             <div class="row g-0">
               <div class="col-md-4 d-flex align-items-center custom-container">
-                <img src="../assets/img/White-Tesla-Model-S-PNG-File 2.png" class="img-fluid rounded-start" alt="...">
+                <img src="../assets/img/white_car.png" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
                 <ul class="card-body">
@@ -1452,7 +1452,7 @@
           <div class="card mb-3">
             <div class="row g-0">
               <div class="col-md-4 d-flex align-items-center custom-container">
-                <img src="../assets/img/White-Tesla-Model-S-PNG-File 2.png" class="img-fluid rounded-start" alt="...">
+                <img src="../assets/img/white_car.png" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
                 <ul class="card-body">
@@ -1489,7 +1489,7 @@
           <div class="card mb-3">
             <div class="row g-0">
               <div class="col-md-4 d-flex align-items-center custom-container">
-                <img src="../assets/img/White-Tesla-Model-S-PNG-File 2.png" class="img-fluid rounded-start" alt="...">
+                <img src="../assets/img/white_car.png" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
                 <ul class="card-body">
