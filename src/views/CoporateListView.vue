@@ -21,30 +21,8 @@
                         </button>
                     </div>
                     <!-- filter icons -->
-                    <div class="dashboard__filter-icons">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/img/icons/carbon_view.png" alt="icon" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/img/icons/plus.svg" alt="icon" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/img/icons/document.svg" alt="icon" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/img/icons/clipboard.svg" alt="icon" />
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                     <corFliter/>
+                  
                 </div>
             </div>
             <div class="corporate__widget">
@@ -55,12 +33,13 @@
                             <h4>Linda Roy</h4>
                         </div>
                         <!-- filter icons -->
-                        <div class="dashboard__filter-icons">
+                         
+                         <div class="dashboard__filter-icons">
                             <ul>
                                 <li>
-                                    <a href="#">
-                                        <img src="assets/img/icons/i-icon.svg" alt="icon" />
-                                    </a>
+                                  
+                                         <router-link to="/assignedvehicle"><img src="assets/img/icons/i-icon.svg" alt="icon" /></router-link>
+                                 
                                 </li>
                                 <li>
                                     <a href="#">
@@ -79,6 +58,7 @@
                                 </li>
                             </ul>
                         </div>
+                    
                     </div>
                     <div class="corporate_single__item_body d-sm-block d-md-grid">
                         <div class="corporate_item_img">
@@ -150,11 +130,15 @@
     <!-- End Dashboard Content -->
 </template>
 <script>
-// import VehicleCard from '../components/VehicleCard.vue'
+ // eslint-disable-next-line no-unused-vars
+import CorFliter from '../components/CorFliter.vue'
+
+
 export default {
     name: 'CorporateListView',
-    // components: {
-    //     VehicleCard, // Register the component here
-    // },
+   
+    components: {
+        CorFliter // Register the component here
+    },
 }
 </script>

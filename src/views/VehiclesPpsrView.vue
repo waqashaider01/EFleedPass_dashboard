@@ -10,6 +10,22 @@
     <seciton class="dashboard__body">
         <!-- dashboard filter -->
         <div class="container">
+                <div class="dashboard__tab">
+        <h4>PPSR Search</h4>
+      </div>
+      <!-- Tab -->
+      <div class="dashboard__tab ppsr__tab">
+        <div class="ppsr__box">
+          <label for="#"> * Please enter the 17 digit VIN number * </label>
+          <div class="ppsr__form">
+            <input type="search" value="MPBUMFF50MX329528" />
+            <button type="submit">
+              <img src="assets/img/icons/search-white.svg" alt="" />
+              Search Now
+            </button>
+          </div>
+        </div>
+      </div>
             <!-- Tab -->
             <div class="dashboard__tab">
                 <h4>Previous Searches</h4>

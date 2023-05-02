@@ -94,9 +94,10 @@
                         </button>
                     </div>
                 </div>
-                <div class="vehicles__person-info-btn">
-                    <a href="#" class="active">Assigned Vehicles</a>
-                    <a href="#">Notes</a>
+                <div class="vehicles__person-info-btn d-flex">
+                   
+                    <router-link to="/assignedvehicle" class="active">Assigned Vehicles</router-link>
+                    <router-link to="/rentalnotes">Notes</router-link>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@
 
         <div class="col-lg-3 col-sm-12 mb-lg-0 mb-2">
 
-          <a class="navbar-brand " href="#"><img src="img/efl-logo.png" alt="logo"></a>
+           <router-link to="/"><img src="img/efl-logo.png" alt="logo"></router-link>
 
         </div>
 
@@ -94,69 +94,70 @@
 
         <div class="me-3">
 
-          <a href="#"><img class="me-2" src="img/Dashboard.png" alt="">Dashboard </a>
+          <router-link to="/home"><img class="me-2" src="img/Dashboard.png" alt="">Dashboard </router-link>
 
         </div>
 
         <div class="me-3">
 
-          <a href="#"><img class="me-2" src="img/fluent_building.png" alt="">Corporate Rentals </a>
+         <router-link to="/indx"> <img class="me-2" src="img/fluent_building.png" alt="">Corporate Rentals</router-link>
+
+        </div>
+
+        
+        <div class="me-3">
+
+         <router-link to="/driver"><img class="me-2" src="img/ri_steering-fill.png" alt="">Drivers </router-link>
 
         </div>
 
         <div class="me-3">
 
-          <a href="drivers.html"><img class="me-2" src="img/ri_steering-fill.png" alt="">Drivers </a>
-
-        </div>
-
-        <div class="me-3">
-
-          <a href="#"><img class="me-2" src="img/fluent_vehicle-bus.png" alt="">Vehicles </a>
+          <router-link to="/vehicle"><img class="me-2" src="img/fluent_vehicle-bus.png" alt="">Vehicles </router-link>
 
         </div>
 
         <div class="me-4">
 
-          <a href="#"><img class="me-2" src="img/ant-design.png" alt="">Transactions </a>
+          <router-link to="/transaction"><img class="me-2" src="img/ant-design.png" alt="">Transactions </router-link>
 
         </div>
 
         <div class="me-4">
 
-          <a href="#"><img class="me-2" src="img/ri_reserved.png" alt="">Reservations </a>
+          <router-link to="/home"><img class="me-2" src="img/ri_reserved.png" alt="">Reservations </router-link>
 
         </div>
 
         <div class="me-4">
 
-          <a href="#"><img class="me-2" src="img/List.png" alt="">Statements </a>
+          <router-link to="/statement"><img class="me-2" src="img/List.png" alt="">Statements </router-link>
 
         </div>
 
         <div class="me-4">
 
-          <a href="#"><img class="me-2" src="img/codicon_graph.png" alt="">Reports </a>
+          <router-link to="/home"><img class="me-2" src="img/codicon_graph.png" alt="">Reports </router-link>
 
         </div>
 
         <div class="me-4">
 
-          <a href="#"><img class="me-2" src="img/fluent_web-asset.png" alt="">Assets </a>
+          <router-link to="/home"><img class="me-2" src="img/fluent_web-asset.png" alt="">Assets </router-link>
 
         </div>
 
         <div class="me-4 d-none">
-          <a href="#">
+          <router-link to="/home">
             <i class="fa-solid fa-ellipsis blu me-2" @click="toggleMenu" id="assets-btn"></i>
-          </a>
+          </router-link>
           <div id="assets-menu" class="dropdown-menu1 main-card">
             <!-- menu items go here -->
-            <p><a href="#"><img src="img/invoice.png"> Asset Invoices</a></p>
-            <p><a href="#"><img src="img/dollar.png"> Infringements</a></p>
-            <p><a href="#"><img src="img/person.png"> Maintenance</a></p>
-            <p><a href="#"><img src="img/tools.png"> Support</a></p>
-            <p><a href="#"><img src="img/logout.png"> Logout</a></p>
+            <p><router-link to="/home"><img src="img/invoice.png"> Asset Invoices</router-link></p>
+            <p><router-link to="/home"><img src="img/dollar.png"> Infringements</router-link></p>
+            <p><router-link to="/home"><img src="img/person.png"> Maintenance</router-link></p>
+            <p><router-link to="/home"><img src="img/tools.png"> Support</router-link></p>
+            <p><router-link to="/home"><img src="img/logout.png"> Logout</router-link></p>
           </div>
         </div>
 
