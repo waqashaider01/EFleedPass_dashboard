@@ -1,34 +1,35 @@
+<!-- eslint-disable vue/no-parsing-error -->
 <template>
   <div class="container my-3">
     <!-- main menu start-->
     <!-- <div class="row menu-row">
       <div class="col-12 d-flex">
         <div class="me-3">
-          <a href="dashboard.html"><img class="me-2" src="img/Dashboard.png" alt="">Dashboard </a>
+          <a href="dashboard.html"><img class="me-2" src="../assets/img/Dashboard.png" alt="">Dashboard </a>
         </div>
         <div class="me-3">
-          <a href="#"><img class="me-2" src="img/fluent_building.png" alt="">Corporate Rentals </a>
+          <a href="#"><img class="me-2" src="../assets/img/fluent_building.png" alt="">Corporate Rentals </a>
         </div>
         <div class="me-3">
-          <a href="drivers.html"><img class="me-2" src="img/ri_steering-fill.png" alt="">Drivers </a>
+          <a href="drivers.html"><img class="me-2" src="../assets/img/ri_steering-fill.png" alt="">Drivers </a>
         </div>
         <div class="me-3">
-          <a href="#"><img class="me-2" src="img/fluent_vehicle-bus.png" alt="">Vehicles </a>
+          <a href="#"><img class="me-2" src="../assets/img/fluent_vehicle-bus.png" alt="">Vehicles </a>
         </div>
         <div class="me-4">
-          <a href="#"><img class="me-2" src="img/ant-design.png" alt="">Transactions </a>
+          <a href="#"><img class="me-2" src="../assets/img/ant-design.png" alt="">Transactions </a>
         </div>
         <div class="me-4">
-          <a href="#"><img class="me-2" src="img/ri_reserved.png" alt="">Reservations </a>
+          <a href="#"><img class="me-2" src="../assets/img/ri_reserved.png" alt="">Reservations </a>
         </div>
         <div class="me-4">
-          <a href="#"><img class="me-2" src="img/List.png" alt="">Statements </a>
+          <a href="#"><img class="me-2" src="../assets/img/List.png" alt="">Statements </a>
         </div>
         <div class="me-4">
-          <a href="#"><img class="me-2" src="img/codicon_graph.png" alt="">Reports </a>
+          <a href="#"><img class="me-2" src="../assets/img/codicon_graph.png" alt="">Reports </a>
         </div>
         <div class="me-4">
-          <a href="#"><img class="me-2" src="img/fluent_web-asset.png" alt="">Assets </a>
+          <a href="#"><img class="me-2" src="../assets/img/fluent_web-asset.png" alt="">Assets </a>
         </div>
 
 
@@ -38,11 +39,11 @@
           </a>
           <div id="assets-menu" class="dropdown-menu1 main-card">
            menu items go here -->
-    <!-- <p><a href="#"><img src="img/invoice.png"> Asset Invoices</a></p>
-    <p><a href="#"><img src="img/dollar.png"> Infringements</a></p>
-    <p><a href="#"><img src="img/person.png"> Maintenance</a></p>
-    <p><a href="#"><img src="img/tools.png"> Support</a></p>
-    <p><a href="#"><img src="img/logout.png"> Logout</a></p>
+    <!-- <p><a href="#"><img src="../assets/img/invoice.png"> Asset Invoices</a></p>
+    <p><a href="#"><img src="../assets/img/dollar.png"> Infringements</a></p>
+    <p><a href="#"><img src="../assets/img/person.png"> Maintenance</a></p>
+    <p><a href="#"><img src="../assets/img/tools.png"> Support</a></p>
+    <p><a href="#"><img src="../assets/img/logout.png"> Logout</a></p>
   </div>
   </div>
 
@@ -83,7 +84,7 @@
           <div class="card mb-3">
             <div class="row g-0">
               <div class="col-md-1 text-center">
-                <img src="img/Rectangle 2905.png" class="img-fluid rounded-start" alt="...">
+                <img src="../assets/img/fleet-manager.png" class="img-fluid rounded-start" alt="...">
 
               </div>
               <div class="col-md-11 ps-2">
@@ -103,13 +104,13 @@
                       </div>
                       <button type="button"
                         style="width: fit-content; margin: 5px;color: white !important; background-color: #00AEEF;"
-                        class="btn btn-labeled ms-lg-auto"><span class="btn-label"><img src="img/pls-white.png"
+                        class="btn btn-labeled ms-lg-auto"><span class="btn-label"><img src="../assets/img/pls-white.png"
                             alt="icon"></span>&nbsp;Add
                         Card(Tolling)</button>
                       <button type="button" id="pay-button"
                         style="width: fit-content; margin: 5px;color: white !important;background-color: #11B826;"
                         class="btn btn-labeled">
-                        <span class="btn-label"><img src="img/money.png" alt="icon"></span>
+                        <span class="btn-label"><img src="../assets/img/money.png" alt="icon"></span>
                         &nbsp; Pay Toll Notice
                       </button>
 
@@ -117,7 +118,7 @@
                       <button type="button"
                         style="width: fit-content;margin: 5px;color: white !important;background-color: #083EA1;"
                         class="btn btn-labeled active" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><span
-                          class="btn-label"><img src="img/money.png" alt="icon"></span>
+                          class="btn-label"><img src="../assets/img/money.png" alt="icon"></span>
                         &nbsp;Manual Charge</button>
                       <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
                         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -171,11 +172,11 @@
                       Now</button>
                     <button type="button" class="btn me-lg-3 me-3 mt-lg-0 mt-2 btn-labeled"
                       style="background-color:#E9F5FF;"><span class="btn-label">
-                        <img src="img/call.png" alt="call"></span>&nbsp;Call
+                        <img src="../assets/img/call.png" alt="call"></span>&nbsp;Call
                       Customer</button>
                     <button type="button" class="btn me-lg-3 me-3 mt-lg-0 mt-2 btn-labeled" data-bs-toggle="modal"
                       data-bs-target="#staticBackdrop" style="background-color:#E9F5FF;"><span class="btn-label"><img
-                          src="img/map.svg" alt="location"></span>&nbsp;My
+                          src="../assets/img/map.svg" alt="location"></span>&nbsp;My
                       Location</button>
 
 
@@ -183,7 +184,7 @@
                     <div class="modal fade" id="staticBackdrop">
                       <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
-                          <img src="img/My Location.png">
+                          <img src="../assets/img/mylocation.png">
                         </div>
                       </div>
                     </div>
@@ -268,7 +269,7 @@
         </div>
         <div class="col-lg-6">
           <p>License Front Picture:</p>
-          <img src="img/drivers_license_TS 1.png">
+          <img src="../assets/img/drivers_l.png">
         </div>
       </div>
 
@@ -312,11 +313,11 @@
             <div class="row">
               <div class="row my-2">
                 <div class="col-lg-11">
-                  <img src="img/sam.png">
+                  <img src="../assets/img/sam.png">
                   &nbsp;&nbsp;<b>Sam John</b>&nbsp;&nbsp;<span class="badge">Completed</span>
                 </div>
                 <div class="col-lg-1 d-flex my-2 justify-content-end align-items-center" style="flex-direction: row;">
-                  <img src="img/pdf-img.png" alt="pdf">
+                  <img src="../assets/img/pdf-img.png" alt="pdf">
                 </div>
               </div>
               <div class="row mt-4">
@@ -340,11 +341,11 @@
             <div class="row">
               <div class="row my-2">
                 <div class="col-lg-11">
-                  <img src="img/sam.png">
+                  <img src="../assets/img/sam.png">
                   &nbsp;&nbsp;<b>Sam John</b>&nbsp;&nbsp;<span class="badge">Completed</span>
                 </div>
                 <div class="col-lg-1 d-flex my-2 justify-content-end align-items-center" style="flex-direction: row;">
-                  <img src="img/pdf-img.png" alt="pdf">
+                  <img src="../assets/img/pdf-img.png" alt="pdf">
                 </div>
               </div>
               <div class="row mt-4">
@@ -367,11 +368,11 @@
             <div class="row">
               <div class="row my-2">
                 <div class="col-lg-11">
-                  <img src="img/sam.png">
+                  <img src="../assets/img/sam.png">
                   &nbsp;&nbsp;<b>Sam John</b>&nbsp;&nbsp;<span class="badge">Completed</span>
                 </div>
                 <div class="col-lg-1 d-flex my-2 justify-content-end align-items-center" style="flex-direction: row;">
-                  <img src="img/pdf-img.png" alt="pdf">
+                  <img src="../assets/img/pdf-img.png" alt="pdf">
                 </div>
               </div>
               <div class="row mt-4">
@@ -399,18 +400,17 @@
             <div class="row">
               <div class="row my-2">
                 <div class="col-lg-11">
-                  <img src="img/sam.png">
+                  <img src="../assets/img/sam.png">
                   &nbsp;&nbsp;<b>Sam John</b>&nbsp;&nbsp;<span class="badge">Completed</span>
                 </div>
                 <div class="col-lg-1 d-flex my-2 justify-content-end align-items-center" style="flex-direction: row;">
-                  <img src="img/pdf-img.png" alt="pdf">
+                  <img src="../assets/img/pdf-img.png" alt="pdf">
                 </div>
               </div>
               <div class="row mt-4">
                 <div class="col-lg">
                   <p class="n">
-                  <h6><b>RA #2016-000-39</b></h6>
-                  </p>
+                  <h6><b>RA #2016-000-39</b></h6></p>
                   <p class="n">Start Date:&nbsp;<span class="text-muted">&nbsp;08/04/2016&nbsp;09:00</span></p>
                   <p class="n">End Date:&nbsp;<span class="text-muted">&nbsp;08/04/2016&nbsp;09:00</span>
                   </p>
@@ -427,11 +427,11 @@
             <div class="row">
               <div class="row my-2">
                 <div class="col-lg-11">
-                  <img src="img/sam.png">
+                  <img src="../assets/img/sam.png">
                   &nbsp;&nbsp;<b>Sam John</b>&nbsp;&nbsp;<span class="badge">Completed</span>
                 </div>
                 <div class="col-lg-1 d-flex my-2 justify-content-end align-items-center" style="flex-direction: row;">
-                  <img src="img/pdf-img.png" alt="pdf">
+                  <img src="../assets/img/pdf-img.png" alt="pdf">
                 </div>
               </div>
               <div class="row mt-4">
@@ -454,11 +454,11 @@
             <div class="row">
               <div class="row my-2">
                 <div class="col-lg-11">
-                  <img src="img/sam.png">
+                  <img src="../assets/img/sam.png">
                   &nbsp;&nbsp;<b>Sam John</b>&nbsp;&nbsp;<span class="badge">Completed</span>
                 </div>
                 <div class="col-lg-1 d-flex my-2 justify-content-end align-items-center" style="flex-direction: row;">
-                  <img src="img/pdf-img.png" alt="pdf">
+                  <img src="../assets/img/pdf-img.png" alt="pdf">
                 </div>
               </div>
               <div class="row mt-4">
@@ -666,7 +666,7 @@
           <div class="alert " role="alert">
             <div class="row align-items-center">
               <div class="col-lg-1 col-2 row-cols-sm-3">
-                <img src="img/ext-icn.svg" alt="icon" class="icn">
+                <img src="../assets/img/ext-icn.svg" alt="icon" class="icn">
               </div>
               <div class="col-lg-8 col-6 "><strong><span class="text-warning">Crash Detected!</span></strong>
                 <br>We detected a crashed vehicle.
@@ -680,7 +680,7 @@
           <div class="alert " role="alert">
             <div class="row align-items-center">
               <div class="col-lg-1 col-2 row-cols-sm-3">
-                <img src="img/mis-icn.svg" alt="icon" class="icn">
+                <img src="../assets/img/mis-icn.svg" alt="icon" class="icn">
               </div>
               <div class="col-lg-8 col-6 "><strong><span class="text-primary">Missing Contact Number!</span></strong>
                 <br><span>Please fill up the missing contact detail.</span>
@@ -719,10 +719,10 @@
                 </div>
                 <div>
                   <a class="btn-grade mb-2">
-                    <img src="img/circle-right.png"> Upgrade Plan
+                    <img src="../assets/img/circle-right.png"> Upgrade Plan
                   </a>
                   <a class="btn-mng">
-                    <img src="img/carbon.png"> Manage Payments
+                    <img src="../assets/img/carbon.png"> Manage Payments
                   </a>
                 </div>
               </div>
@@ -801,11 +801,11 @@
             </div>
 
 
-            <img src="img\master-card.png" alt="mastercard" class="rounded mx-auto d-block mb-3 masCard">
+            <img src="../assets/img\master-card.png" alt="mastercard" class="rounded mx-auto d-block mb-3 masCard">
 
             <ul type="none">
               <li class="d-flex align-items-center">
-                <img src="img\mastercard-logo.png" class=" mb-2">
+                <img src="../assets/img\mastercard-logo.png" class=" mb-2">
                 <div class="ms-2"><span>**** **** **** 9978 Mastercard</span>
                   <p><b>$482.00</b></p>
                 </div>
@@ -814,7 +814,7 @@
               </li>
               <hr>
               <li class="d-flex align-items-center">
-                <img src="img\visa-logo.png" class=" mb-2">
+                <img src="../assets/img\visa-logo.png" class=" mb-2">
                 <div class="ms-2"><span>**** **** **** 9978 Mastercard</span>
                   <p><b>$482.00</b></p>
                 </div>
@@ -829,7 +829,7 @@
         <div class="main-card p-0 mt-3">
           <div class="row align-items-center">
             <div class="col-md-6 " id="i1">
-              <img src="img\White-Tesla-Model-S-PNG-File 2.png" class="img-fluid img-bg" width="100%">
+              <img src="../assets/img/white_car.png" class="img-fluid img-bg" width="100%">
             </div>
             <div class="col-md-6">
               <div class="card-body">
@@ -851,7 +851,7 @@
                   <circle cx="90" cy="90" r="60" style="--percent: 50"></circle>
                 </svg>
                 <div class="number d-flex flex-column">
-                  <img src="img/meter.png">
+                  <img src="../assets/img/meter.png">
                   <div class="text-danger h4 mb-0">8000 </div>
                   <div class=" text-muted text-center">RPM</div>
                 </div>
@@ -866,7 +866,7 @@
                   <circle cx="90" cy="90" r="60" style="--percent: 30"></circle>
                 </svg>
                 <div class="number d-flex flex-column">
-                  <img src="img/speedometer.png" alt="">
+                  <img src="../assets/img/speedometer.png" alt="">
                   <div class="text-danger h4 mb-0">50 </div>
                   <div class=" text-muted text-center">Km/h</div>
 
@@ -884,7 +884,7 @@
                   <circle cx="90" cy="90" r="60" style="--percent: 35"></circle>
                 </svg>
                 <div class="number d-flex flex-column">
-                  <img src="img/fire.png">
+                  <img src="../assets/img/fire.png">
                   <div class="text-danger h4 mb-0">60% </div>
                   <div class=" text-muted text-center">Fuel</div>
 
@@ -918,7 +918,7 @@
                   <div class="card mt-5 mb-3 border-0">
                     <div class="row g-0">
                       <div class="col-md-3 align-self-center   img-bg">
-                        <img src="img\White-Tesla-Model-S-PNG-File 2.png" class="img-fluid rounded-start" alt="...">
+                        <img src="../assets/img\white_car.png" class="img-fluid rounded-start" alt="...">
                       </div>
                       <div class="col-md-6">
                         <div class="ms-3">
@@ -947,7 +947,7 @@
                   <div class="card mt-5 mb-3 border-0">
                     <div class="row g-0">
                       <div class="col-md-3 align-self-center   img-bg">
-                        <img src="img\car full img.png" class="img-fluid ms-4">
+                        <img src="../assets/img/car-full-img.png" class="img-fluid ms-4">
                       </div>
                       <div class="col-md-6">
                         <div class="ms-3">
@@ -1369,7 +1369,7 @@
             <div class="col-lg-12 d-flex align-items-center">
               <h5>ENX04M(#54566) <span class="badge"></span></h5>
               <span class="icon-holder ms-auto">
-                <img src="img/map-icn.png" alt="map">
+                <img src="../assets/img/map-icn.png" alt="map">
               </span>
             </div>
           </div>
@@ -1377,7 +1377,7 @@
           <div class="card mb-3">
             <div class="row g-0">
               <div class="col-md-4 d-flex align-items-center custom-container">
-                <img src="img/White-Tesla-Model-S-PNG-File 2.png" class="img-fluid rounded-start" alt="...">
+                <img src="../assets/img/white_car.png" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
                 <ul class="card-body">
@@ -1405,7 +1405,7 @@
 
               <h5>ENX04M(#54566)<span class="badge"></span></h5>
               <span class="icon-holder ms-auto">
-                <img src="img/map-icn.png" alt="map">
+                <img src="../assets/img/map-icn.png" alt="map">
               </span>
             </div>
           </div>
@@ -1413,7 +1413,7 @@
           <div class="card mb-3">
             <div class="row g-0">
               <div class="col-md-4 d-flex align-items-center custom-container">
-                <img src="img/White-Tesla-Model-S-PNG-File 2.png" class="img-fluid rounded-start" alt="...">
+                <img src="../assets/img/white_car.png" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
                 <ul class="card-body">
@@ -1443,7 +1443,7 @@
 
               <h5>ENX04M(#54566)<span class="badge"></span></h5>
               <span class="icon-holder1 ms-auto">
-                <img src="img/map-icn.png" alt="map">
+                <img src="../assets/img/map-icn.png" alt="map">
               </span>
 
             </div>
@@ -1452,7 +1452,7 @@
           <div class="card mb-3">
             <div class="row g-0">
               <div class="col-md-4 d-flex align-items-center custom-container">
-                <img src="img/White-Tesla-Model-S-PNG-File 2.png" class="img-fluid rounded-start" alt="...">
+                <img src="../assets/img/white_car.png" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
                 <ul class="card-body">
@@ -1480,7 +1480,7 @@
 
               <h5>ENX04M(#54566)<span class="badge"></span></h5>
               <span class="icon-holder1 ms-auto">
-                <img src="img/map-icn.png" alt="map">
+                <img src="../assets/img/map-icn.png" alt="map">
               </span>
 
             </div>
@@ -1489,7 +1489,7 @@
           <div class="card mb-3">
             <div class="row g-0">
               <div class="col-md-4 d-flex align-items-center custom-container">
-                <img src="img/White-Tesla-Model-S-PNG-File 2.png" class="img-fluid rounded-start" alt="...">
+                <img src="../assets/img/white_car.png" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
                 <ul class="card-body">

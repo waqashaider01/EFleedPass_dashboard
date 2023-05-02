@@ -17,7 +17,7 @@
                     <div class="dashboard__filter-search">
                         <input type="search" placeholder="Search..." />
                         <button type="submit">
-                            <img src="assets/img/icons/Search.svg" alt="icon" />
+                            <img src="../assets/img/icons/Search.svg" alt="icon" />
                         </button>
                     </div>
                     <!-- filter icons -->

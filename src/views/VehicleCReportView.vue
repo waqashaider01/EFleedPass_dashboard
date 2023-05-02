@@ -20,7 +20,7 @@
           <div class="ppsr__form">
             <input type="search" value="MPBUMFF50MX329528" />
             <button type="submit">
-              <img src="assets/img/icons/search-white.svg" alt="" />
+              <img src="../assets/img/icons/search-white.svg" alt="" />
               Search Now
             </button>
           </div>

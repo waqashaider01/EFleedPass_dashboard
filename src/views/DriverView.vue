@@ -16,7 +16,7 @@
                     <button class="sub-src-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
                 <i class="far fa-file-alt sblu"></i>
-                <img src="img/pls.png" alt="icon">
+                <img src="../assets/img/pls.png" alt="icon">
             </div>
         </div>
         <div class="row">
@@ -24,14 +24,14 @@
                 <div class="main-card padding-card">
                     <div class="row bg-row p-2">
                         <div class="col-lg-7 d-flex align-items-center">
-                            <img class="me-2" src="img/sam.png" alt="sam">
+                            <img class="me-2" src="../assets/img/sam.png" alt="sam">
                             <h5>Example heading <span class="badge">Added</span></h5>
                         </div>
                         <div class="col-lg-5">
                             <ul class="list-group list-group-horizontal justify-content-end">
                                 <li class="list-group-item"><a href="live-drivers.html"><i
                                             class="fa-regular fa-eye grn"></i></a></li>
-                                <li class="list-group-item"><a href="drivers-details.html"><img src="img/info.png"
+                                <li class="list-group-item"><a href="drivers-details.html"><img src="../assets/img/info.png"
                                             alt="icon"></a></li>
                                 <li class="list-group-item"><i class="fa-regular fa-pen-to-square blu"></i></li>
                                 <li class="list-group-item"><i class="fa-regular fa-trash-can red"></i></li>
@@ -63,14 +63,14 @@
                 <div class="main-card padding-card">
                     <div class="row bg-row p-2">
                         <div class="col-lg-7 d-flex align-items-center">
-                            <img class="me-2" src="img/sam.png" alt="sam">
+                            <img class="me-2" src="../assets/img/sam.png" alt="sam">
                             <h5>Example heading <span class="badge-red">Not Found</span></h5>
                         </div>
                         <div class="col-lg-5">
                             <ul class="list-group list-group-horizontal justify-content-end">
                                 <li class="list-group-item"><a href="live-drivers.html"><i
                                             class="fa-regular fa-eye grn"></i></a></li>
-                                <li class="list-group-item"><a href="drivers-details.html"><img src="img/info.png"
+                                <li class="list-group-item"><a href="drivers-details.html"><img src="../assets/img/info.png"
                                             alt="icon"></a></li>
                                 <li class="list-group-item"><i class="fa-regular fa-pen-to-square blu"></i></li>
                                 <li class="list-group-item"><i class="fa-regular fa-trash-can red"></i></li>
@@ -104,14 +104,14 @@
                 <div class="main-card padding-card">
                     <div class="row bg-row p-2">
                         <div class="col-lg-7 d-flex align-items-center">
-                            <img class="me-2" src="img/sam.png" alt="sam">
+                            <img class="me-2" src="../assets/img/sam.png" alt="sam">
                             <h5>Example heading <span class="badge">Added</span></h5>
                         </div>
                         <div class="col-lg-5">
                             <ul class="list-group list-group-horizontal justify-content-end">
                                 <li class="list-group-item"><a href="live-drivers.html"><i
                                             class="fa-regular fa-eye grn"></i></a></li>
-                                <li class="list-group-item"><a href="drivers-details.html"><img src="img/info.png"
+                                <li class="list-group-item"><a href="drivers-details.html"><img src="../assets/img/info.png"
                                             alt="icon"></a></li>
                                 <li class="list-group-item"><i class="fa-regular fa-pen-to-square blu"></i></li>
                                 <li class="list-group-item"><i class="fa-regular fa-trash-can red"></i></li>
@@ -143,14 +143,14 @@
                 <div class="main-card padding-card">
                     <div class="row bg-row p-2">
                         <div class="col-lg-7 d-flex align-items-center">
-                            <img class="me-2" src="img/sam.png" alt="sam">
+                            <img class="me-2" src="../assets/img/sam.png" alt="sam">
                             <h5>Example heading <span class="badge-red">Not Found</span></h5>
                         </div>
                         <div class="col-lg-5">
                             <ul class="list-group list-group-horizontal justify-content-end">
                                 <li class="list-group-item"><a href="live-drivers.html"><i
                                             class="fa-regular fa-eye grn"></i></a></li>
-                                <li class="list-group-item"><a href="drivers-details.html"><img src="img/info.png"
+                                <li class="list-group-item"><a href="drivers-details.html"><img src="../assets/img/info.png"
                                             alt="icon"></a></li>
                                 <li class="list-group-item"><i class="fa-regular fa-pen-to-square blu"></i></li>
                                 <li class="list-group-item"><i class="fa-regular fa-trash-can red"></i></li>
@@ -184,14 +184,14 @@
                 <div class="main-card padding-card">
                     <div class="row bg-row p-2">
                         <div class="col-lg-7 d-flex align-items-center">
-                            <img class="me-2" src="img/sam.png" alt="sam">
+                            <img class="me-2" src="../assets/img/sam.png" alt="sam">
                             <h5>Example heading <span class="badge">Added</span></h5>
                         </div>
                         <div class="col-lg-5">
                             <ul class="list-group list-group-horizontal justify-content-end">
                                 <li class="list-group-item"><a href="live-drivers.html"><i
                                             class="fa-regular fa-eye grn"></i></a></li>
-                                <li class="list-group-item"><a href="drivers-details.html"><img src="img/info.png"
+                                <li class="list-group-item"><a href="drivers-details.html"><img src="../assets/img/info.png"
                                             alt="icon"></a></li>
                                 <li class="list-group-item"><i class="fa-regular fa-pen-to-square blu"></i></li>
                                 <li class="list-group-item"><i class="fa-regular fa-trash-can red"></i></li>
@@ -223,14 +223,14 @@
                 <div class="main-card padding-card">
                     <div class="row bg-row p-2">
                         <div class="col-lg-7 d-flex align-items-center">
-                            <img class="me-2" src="img/sam.png" alt="sam">
+                            <img class="me-2" src="../assets/img/sam.png" alt="sam">
                             <h5>Example heading <span class="badge-red">Not Found</span></h5>
                         </div>
                         <div class="col-lg-5">
                             <ul class="list-group list-group-horizontal justify-content-end">
                                 <li class="list-group-item"><a href="live-drivers.html"><i
                                             class="fa-regular fa-eye grn"></i></a></li>
-                                <li class="list-group-item"><a href="drivers-details.html"><img src="img/info.png"
+                                <li class="list-group-item"><a href="drivers-details.html"><img src="../assets/img/info.png"
                                             alt="icon"></a></li>
                                 <li class="list-group-item"><i class="fa-regular fa-pen-to-square blu"></i></li>
                                 <li class="list-group-item"><i class="fa-regular fa-trash-can red"></i></li>

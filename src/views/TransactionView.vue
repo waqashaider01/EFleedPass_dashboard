@@ -16,7 +16,7 @@
                     <div class="dashboard__filter-search">
                         <input type="search" placeholder="Search by Driver" />
                         <button type="submit">
-                            <img src="assets/img/icons/Search.png" alt="icon" />
+                            <img src="../assets/img/icons/Search.png" alt="icon" />
                         </button>
                     </div>
                     <!-- filter icons -->
@@ -25,7 +25,7 @@
                             <li>
 
                                 <router-link to="/tollnotice">
- <img src="assets/img/icons/word-list-blue.svg" alt="icon" />
+ <img src="../assets/img/icons/word-list-blue.svg" alt="icon" />
                                 </router-link>
 
                         

@@ -18,7 +18,7 @@
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/icons/document.svg" alt="icon" />
+                                    <img src="../assets/img/icons/document.svg" alt="icon" />
                                 </a>
                             </li>
                         </ul>
@@ -47,7 +47,7 @@
                 <!-- Vehicles Person Info -->
                 <div class="vehicles__person-info">
                     <div class="vehicles__person-info-img">
-                        <img src="assets/img/fleet-manager.png" alt="fleet-manager" />
+                        <img src="../assets/img/fleet-manager.png" alt="fleet-manager" />
                     </div>
                     <div class="vehicles__person-info-text table-responsive">
                         <table class="table">
@@ -89,7 +89,7 @@
                     </div>
                     <div class="vehicles__person-info-btns">
                         <button class="btns">
-                            <img src="assets/img/icons/carbon_money.png" alt="carbon_money" />
+                            <img src="../assets/img/icons/carbon_money.png" alt="carbon_money" />
                             Pay Now
                         </button>
                     </div>

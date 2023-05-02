@@ -5,7 +5,7 @@
         <div class="ppsr__head">
             <h3>ENX04M</h3>
             <a href="#">
-                <img src="assets/img/icons/carbon_view-success.svg" alt="icon" />
+                <img src="../assets/img/icons/carbon_view-success.svg" alt="icon" />
             </a>
         </div>
         <div class="ppsr__body">

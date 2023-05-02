@@ -98,8 +98,8 @@
                         <div>
                             <p class="fw-bold">Payment Mentods</p>
                             <div class="mt-3">
-                                <span class="mx-2"><img src="assets/img/visaicon.png" alt="visa icon"></span>
-                                <span class="mx-2"><img src="assets/img/picon2.png" alt="visa icon"></span>
+                                <span class="mx-2"><img src="../assets/img/visaicon.png" alt="visa icon"></span>
+                                <span class="mx-2"><img src="../assets/img/picon2.png" alt="visa icon"></span>
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                             <p>PAID AMOUNT: <span class="fw-bold">$0.00</span></p>
                             <p class="my-2 fw-bold">TOTAL DUE: <span class="text-success">133.95</span></p>
                             <div class="my-2">
-                                <button class="payBtn btn px-3"> <span class="mx-2"><img src="assets/img/carbon_money.png"
+                                <button class="payBtn btn px-3"> <span class="mx-2"><img src="../assets/img/carbon_money.png"
                                             alt=""></span>
                                     PayNow</button>
                             </div>

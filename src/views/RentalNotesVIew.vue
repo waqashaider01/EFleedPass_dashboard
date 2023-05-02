@@ -17,7 +17,7 @@
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/icons/document.svg" alt="icon" />
+                                    <img src="../assets/img/icons/document.svg" alt="icon" />
                                 </a>
                             </li>
                         </ul>
@@ -46,7 +46,7 @@
                 <!-- Vehicles Person Info -->
                 <div class="vehicles__person-info">
                     <div class="vehicles__person-info-img">
-                        <img src="assets/img/fleet-manager.png" alt="fleet-manager" />
+                        <img src="../assets/img/fleet-manager.png" alt="fleet-manager" />
                     </div>
                     <div class="vehicles__person-info-text table-responsive">
                         <table class="table">
@@ -88,7 +88,7 @@
                     </div>
                     <div class="vehicles__person-info-btns">
                         <button class="btns">
-                            <img src="assets/img/icons/carbon_money.png" alt="carbon_money" />
+                            <img src="../assets/img/icons/carbon_money.png" alt="carbon_money" />
                             Pay Now
                         </button>
                     </div>
@@ -114,27 +114,27 @@
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/icons/star-line.svg" alt="star-line" />
+                                    <img src="../assets/img/icons/star-line.svg" alt="star-line" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/icons/star-line.svg" alt="star-line" />
+                                    <img src="../assets/img/icons/star-line.svg" alt="star-line" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/icons/star-line.svg" alt="star-line" />
+                                    <img src="../assets/img/icons/star-line.svg" alt="star-line" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/icons/star-line.svg" alt="star-line" />
+                                    <img src="../assets/img/icons/star-line.svg" alt="star-line" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/icons/star-line.svg" alt="star-line" />
+                                    <img src="../assets/img/icons/star-line.svg" alt="star-line" />
                                 </a>
                             </li>
                         </ul>
@@ -165,11 +165,11 @@
                     </div>
                     <div class="btns_group">
                         <button type="submit" class="btns my-2 mx-1">
-                            <img src="assets/img/icons/arrow-reset.png" alt="arrow-reset" />
+                            <img src="../assets/img/icons/arrow-reset.png" alt="arrow-reset" />
                             Reset
                         </button>
                         <button type="submit" class="btns confirm my-2 mx-1">
-                            <img src="assets/img/icons/circle-check.png" alt="circle-checkt" />
+                            <img src="../assets/img/icons/circle-check.png" alt="circle-checkt" />
                             Save
                         </button>
                     </div>

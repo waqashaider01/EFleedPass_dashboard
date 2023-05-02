@@ -16,7 +16,7 @@
                     <button class="sub-src-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
                 <i class="far fa-file-alt sblu"></i>
-                <img src="img/pls.png" alt="icon">
+                <img src="../assets/img/pls.png" alt="icon">
             </div>
         </div>
         <div class="row">

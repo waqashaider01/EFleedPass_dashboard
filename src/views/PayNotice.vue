@@ -47,13 +47,13 @@
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" checked
                             value="visa" v-model="paymentType">
-                        <label class="form-check-label" for="inlineRadio1"><img src="img/visa.jpeg"><img
-                                src="img/mastercard.jpeg"></label>
+                        <label class="form-check-label" for="inlineRadio1"><img src="../assets/img/visa.jpeg"><img
+                                src="../assets/img/mastercard.jpeg"></label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
                             value="bank" v-model="paymentType">
-                        <label class="form-check-label" for="inlineRadio2"><img src="img/banklogo.jpeg"> Bank
+                        <label class="form-check-label" for="inlineRadio2"><img src="../assets/img/banklogo.jpeg"> Bank
                             Payment</label>
                     </div>
                     <div class="bankPay row g-3" id="BankInfo" v-if="paymentType === 'bank'">
@@ -71,7 +71,7 @@
                             <label for="autoSizingInputGroup" class="form-label">Account Number</label>
                             <label class="visually-hidden" for="autoSizingInputGroup"></label>
                             <div class="input-group">
-                                <div class="input-group-text"><img src="img/banklogo.jpeg" width="70%" height="80%"></div>
+                                <div class="input-group-text"><img src="../assets/img/banklogo.jpeg" width="70%" height="80%"></div>
                                 <input type="text" class="form-control" id="autoSizingInputGroup"
                                     placeholder="000 000 0000">
                             </div>
@@ -122,7 +122,7 @@
                         <label for="autoSizingInputGroup" class="form-label">Add a credit card</label>
                         <label class="visually-hidden" for="autoSizingInputGroup"></label>
                         <div class="input-group">
-                            <div class="input-group-text"><img src="img/mastercard.jpeg" width="70%" height="80%"></div>
+                            <div class="input-group-text"><img src="../assets/img/mastercard.jpeg" width="70%" height="80%"></div>
                             <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="000 000 0000">
                         </div>
                     </div>

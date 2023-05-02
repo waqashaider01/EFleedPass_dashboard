@@ -5,7 +5,7 @@
             <p class="fw-bold">001</p>
             <span class="eyeIcon">
                 <a href="#">
-                    <img src="assets/img/icons/carbon_view-success.svg" alt="icon" />
+                    <img src="../assets/img/icons/carbon_view-success.svg" alt="icon" />
 
                 </a>
             </span>
@@ -13,7 +13,7 @@
 
         <div class="p-4 d-flex flex-row">
             <div class="imageCon p-3 me-2">
-                <img class="bcarImg" src="assets/img/cars/big.png" alt="">
+                <img class="bcarImg" src="../assets/img/cars/big.png" alt="">
             </div>
             <div>
                 <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit auctor a,
