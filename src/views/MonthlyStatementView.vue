@@ -23,14 +23,9 @@
                     <div class="dashboard__filter-icons">
                         <ul>
                             <li>
-
-                                <router-link to="/tollnotice">
- <img src="assets/img/icons/word-list-blue.svg" alt="icon" />
-                                </router-link>
-
-                        
-                                   
-                             
+                                <a href="#">
+                                    <img src="assets/img/icons/word-list-blue.svg" alt="icon" />
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -43,22 +38,22 @@
                 <!-- single item -->
                 <div class="row">
                     <div class="col-sm-12 col-md-6 my-2">
-                        <TransactionCard />
+                        <TollNCard />
                     </div>
                     <div class="col-sm-12 col-md-6 my-2">
-                        <TransactionCard />
+                        <TollNCard />
                     </div>
                     <div class="col-sm-12 col-md-6 my-2">
-                        <TransactionCard />
+                        <TollNCard />
                     </div>
                     <div class="col-sm-12 col-md-6 my-2">
-                        <TransactionCard />
+                        <TollNCard />
                     </div>
                     <div class="col-sm-12 col-md-6 my-2">
-                        <TransactionCard />
+                        <TollNCard />
                     </div>
                     <div class="col-sm-12 col-md-6 my-2">
-                        <TransactionCard />
+                        <TollNCard />
                     </div>
                 </div>
 
@@ -80,12 +75,12 @@
 </style>
   
 <script>
-import TransactionCard from '../components/TransactionCard.vue';
+import TollNCard from '../components/TollNCard.vue';
 
 export default {
-    name: 'TransactionView',
+    name: 'TollNoticeView',
     components: {
-        TransactionCard, // Register the component here
+        TollNCard, // Register the component here
     },
 }
 

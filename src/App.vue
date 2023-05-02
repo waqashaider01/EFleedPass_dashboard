@@ -9,7 +9,7 @@
 
         <div class="col-lg-3 col-sm-12 mb-lg-0 mb-2">
 
-           <router-link to="/"><img src="img/efl-logo.png" alt="logo"></router-link>
+          <router-link to="/"><img src="img/efl-logo.png" alt="logo"></router-link>
 
         </div>
 
@@ -100,14 +100,14 @@
 
         <div class="me-3">
 
-         <router-link to="/indx"> <img class="me-2" src="img/fluent_building.png" alt="">Corporate Rentals</router-link>
+          <router-link to="/indx"> <img class="me-2" src="img/fluent_building.png" alt="">Corporate Rentals</router-link>
 
         </div>
 
-        
+
         <div class="me-3">
 
-         <router-link to="/driver"><img class="me-2" src="img/ri_steering-fill.png" alt="">Drivers </router-link>
+          <router-link to="/driver"><img class="me-2" src="img/ri_steering-fill.png" alt="">Drivers </router-link>
 
         </div>
 
@@ -147,17 +147,17 @@
 
         </div>
 
-        <div class="me-4 d-none">
-          <router-link to="/home">
-            <i class="fa-solid fa-ellipsis blu me-2" @click="toggleMenu" id="assets-btn"></i>
-          </router-link>
-          <div id="assets-menu" class="dropdown-menu1 main-card">
-            <!-- menu items go here -->
-            <p><router-link to="/home"><img src="img/invoice.png"> Asset Invoices</router-link></p>
-            <p><router-link to="/home"><img src="img/dollar.png"> Infringements</router-link></p>
-            <p><router-link to="/home"><img src="img/person.png"> Maintenance</router-link></p>
-            <p><router-link to="/home"><img src="img/tools.png"> Support</router-link></p>
-            <p><router-link to="/home"><img src="img/logout.png"> Logout</router-link></p>
+        <div class="me-4">
+          <i class="fa-solid fa-ellipsis blu me-2" @click="toggleMenu" id="assets-btn"></i>
+          <div v-if="isMenuOpen">
+            <div id="assets-menu" class="dropdown-menu1  main-card">
+              <!-- menu items go here -->
+              <p><router-link to="/home"><img src="img/invoice.png"> Asset Invoices</router-link></p>
+              <p><router-link to="/home"><img src="img/dollar.png"> Infringements</router-link></p>
+              <p><router-link to="/home"><img src="img/person.png"> Maintenance</router-link></p>
+              <p><router-link to="/home"><img src="img/tools.png"> Support</router-link></p>
+              <p><router-link to="/home"><img src="img/logout.png"> Logout</router-link></p>
+            </div>
           </div>
         </div>
 
@@ -168,32 +168,35 @@
 
   </div>
 </template>
-<style></style>
-<script >
+<style>
+.dropdown-menu1 {
+      display: none;
+    position: absolute !important;
+    z-index: 2 !important;
+    right: 72px !important;
+  display: block !important;
+}
+</style>
+
 // import { RouterLink, RouterView } from 'vue-router'
+<script>
 export default {
   data() {
     return {
-      showMenu: false,
+      isMenuOpen: false,
     };
   },
   methods: {
     toggleMenu() {
-      this.showMenu = !this.showMenu;
+      this.isMenuOpen = !this.isMenuOpen;
     },
-    hideMenu(event) {
-      if (!this.$el.contains(event.target)) {
-        this.showMenu = false;
-      }
-    },
-  },
-  mounted() {
-    document.addEventListener('click', this.hideMenu);
-  },
-  beforeDestroy() {
-    document.removeEventListener('click', this.hideMenu);
   },
 };
-
-
 </script>
+
+
+
+
+
+
+
