@@ -29,10 +29,10 @@
                         </div>
                         <div class="col-lg-5">
                             <ul class="list-group list-group-horizontal justify-content-end">
-                                <li class="list-group-item"><a href="live-drivers.html"><i
-                                            class="fa-regular fa-eye grn"></i></a></li>
-                                <li class="list-group-item"><a href="drivers-details.html"><img src="../assets/img/info.png"
-                                            alt="icon"></a></li>
+                                <li class="list-group-item"><router-link to="/livedriver"><img src="../assets/img/info.png"
+                                            alt="icon"></router-link></li>
+                                <li class="list-group-item"><router-link to="/driverdetail"><img src="../assets/img/info.png"
+                                            alt="icon"></router-link></li>
                                 <li class="list-group-item"><i class="fa-regular fa-pen-to-square blu"></i></li>
                                 <li class="list-group-item"><i class="fa-regular fa-trash-can red"></i></li>
                             </ul>
@@ -68,10 +68,10 @@
                         </div>
                         <div class="col-lg-5">
                             <ul class="list-group list-group-horizontal justify-content-end">
-                                <li class="list-group-item"><a href="live-drivers.html"><i
-                                            class="fa-regular fa-eye grn"></i></a></li>
-                                <li class="list-group-item"><a href="drivers-details.html"><img src="../assets/img/info.png"
-                                            alt="icon"></a></li>
+                                <li class="list-group-item"><router-link to="/livedriver"><img src="../assets/img/info.png"
+                                            alt="icon"></router-link></li>
+                                <li class="list-group-item"><router-link to="/driverdetail"><img src="../assets/img/info.png"
+                                            alt="icon"></router-link></li>
                                 <li class="list-group-item"><i class="fa-regular fa-pen-to-square blu"></i></li>
                                 <li class="list-group-item"><i class="fa-regular fa-trash-can red"></i></li>
                             </ul>
@@ -109,10 +109,10 @@
                         </div>
                         <div class="col-lg-5">
                             <ul class="list-group list-group-horizontal justify-content-end">
-                                <li class="list-group-item"><a href="live-drivers.html"><i
-                                            class="fa-regular fa-eye grn"></i></a></li>
-                                <li class="list-group-item"><a href="drivers-details.html"><img src="../assets/img/info.png"
-                                            alt="icon"></a></li>
+                                <li class="list-group-item"><router-link to="/livedriver"><img src="../assets/img/info.png"
+                                            alt="icon"></router-link></li>
+                                <li class="list-group-item"><router-link to="/driverdetail"><img src="../assets/img/info.png"
+                                            alt="icon"></router-link></li>
                                 <li class="list-group-item"><i class="fa-regular fa-pen-to-square blu"></i></li>
                                 <li class="list-group-item"><i class="fa-regular fa-trash-can red"></i></li>
                             </ul>
@@ -148,10 +148,10 @@
                         </div>
                         <div class="col-lg-5">
                             <ul class="list-group list-group-horizontal justify-content-end">
-                                <li class="list-group-item"><a href="live-drivers.html"><i
-                                            class="fa-regular fa-eye grn"></i></a></li>
-                                <li class="list-group-item"><a href="drivers-details.html"><img src="../assets/img/info.png"
-                                            alt="icon"></a></li>
+                                <li class="list-group-item"><router-link to="/livedriver"><img src="../assets/img/info.png"
+                                            alt="icon"></router-link></li>
+                                <li class="list-group-item"><router-link to="/driverdetail"><img src="../assets/img/info.png"
+                                            alt="icon"></router-link></li>
                                 <li class="list-group-item"><i class="fa-regular fa-pen-to-square blu"></i></li>
                                 <li class="list-group-item"><i class="fa-regular fa-trash-can red"></i></li>
                             </ul>
@@ -189,10 +189,10 @@
                         </div>
                         <div class="col-lg-5">
                             <ul class="list-group list-group-horizontal justify-content-end">
-                                <li class="list-group-item"><a href="live-drivers.html"><i
-                                            class="fa-regular fa-eye grn"></i></a></li>
-                                <li class="list-group-item"><a href="drivers-details.html"><img src="../assets/img/info.png"
-                                            alt="icon"></a></li>
+                                <li class="list-group-item"><router-link to="/livedriver"><img src="../assets/img/info.png"
+                                            alt="icon"></router-link></li>
+                                <li class="list-group-item"><router-link to="/driverdetail"><img src="../assets/img/info.png"
+                                            alt="icon"></router-link></li>
                                 <li class="list-group-item"><i class="fa-regular fa-pen-to-square blu"></i></li>
                                 <li class="list-group-item"><i class="fa-regular fa-trash-can red"></i></li>
                             </ul>
@@ -228,10 +228,10 @@
                         </div>
                         <div class="col-lg-5">
                             <ul class="list-group list-group-horizontal justify-content-end">
-                                <li class="list-group-item"><a href="live-drivers.html"><i
-                                            class="fa-regular fa-eye grn"></i></a></li>
-                                <li class="list-group-item"><a href="drivers-details.html"><img src="../assets/img/info.png"
-                                            alt="icon"></a></li>
+                                <li class="list-group-item"><router-link to="/livedriver"><img src="../assets/img/info.png"
+                                            alt="icon"></router-link></li>
+                                <li class="list-group-item"><router-link to="/driverdetail"><img src="../assets/img/info.png"
+                                            alt="icon"></router-link></li>
                                 <li class="list-group-item"><i class="fa-regular fa-pen-to-square blu"></i></li>
                                 <li class="list-group-item"><i class="fa-regular fa-trash-can red"></i></li>
                             </ul>
