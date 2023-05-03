@@ -72,7 +72,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Send Email</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Setup Revenue</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -123,9 +123,10 @@
 
                     </div>
                     <div class="mb-3 d-flex justify-content-between ">
-                        <div class="me-2 w-100"> <label for="select modalLabel">Vehicle Owner *</label>
-                            <input type="email" class="form-control formInput" id="exampleFormControlInput1"
-                                placeholder="Reciepent Email">
+                        <div class="me-2 w-100"> <label for="select modalLabel">Representative's Signature *</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <small class="text-muted pt-2">Note: Remember to add additional Customer Numbers related to your
+                                fleet of vehicles</small>
                         </div>
                         <span class="d-flex align-items-center pt-3">
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -135,6 +136,7 @@
                                     fill="#2388FF" />
                             </svg>
 
+
                         </span>
 
 
@@ -142,7 +144,24 @@
                 </div>
                 <div class="my-3 d-flex justify-content-center">
 
-                    <button type="button" class="btn  sendBtn">Send Email</button>
+                    <button type="button" class="btn  sendBtn">Submit</button>
+                </div>
+                <div class="modal-footer mf">
+                    <div class="d-flex justify-content-center w-100">
+                        <p class="prC text=center">Current Customer Numbers</p>
+                    </div>
+                    <div class="table-responsive my-2">
+                        <table class="table table-striped">
+                            <tr>
+                                <td>1</td>
+                                <td>9872 3434 3431</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>9872 3434 3431</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
@@ -150,6 +169,27 @@
 </template>
   
 <style scoped>
+.mf {
+    display: block !important;
+}
+
+.prC {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+    text-align: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    /* Black 100% */
+
+    color: #000000;
+
+}
+
 .formInput {
     /* width: 25rem !important */
 }
