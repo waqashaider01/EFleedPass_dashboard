@@ -94,56 +94,64 @@
 
         <div class="me-3">
 
-          <router-link to="/home"><img class="me-2" src="../public/img/Dashboard.png" alt="">Dashboard </router-link>
+          <router-link to="/assetlist"><img class="me-2" src="../public/img/Dashboard.png" alt="">Dashboard
+          </router-link>
 
         </div>
 
         <div class="me-3">
 
-          <router-link to="/indx"> <img class="me-2" src="../public/img/fluent_building.png" alt="">Corporate Rentals</router-link>
+          <router-link to="/indx"> <img class="me-2" src="../public/img/fluent_building.png" alt="">Corporate
+            Rentals</router-link>
 
         </div>
 
 
         <div class="me-3">
 
-          <router-link to="/driver"><img class="me-2" src="../public/img/ri_steering-fill.png" alt="">Drivers </router-link>
+          <router-link to="/driver"><img class="me-2" src="../public/img/ri_steering-fill.png" alt="">Drivers
+          </router-link>
 
         </div>
 
         <div class="me-3">
 
-          <router-link to="/vehicle"><img class="me-2" src="../public/img/fluent_vehicle-bus.png" alt="">Vehicles </router-link>
+          <router-link to="/vehicle"><img class="me-2" src="../public/img/fluent_vehicle-bus.png" alt="">Vehicles
+          </router-link>
 
         </div>
 
         <div class="me-4">
 
-          <router-link to="/transaction"><img class="me-2" src="../public/img/ant-design.png" alt="">Transactions </router-link>
+          <router-link to="/transaction"><img class="me-2" src="../public/img/ant-design.png" alt="">Transactions
+          </router-link>
 
         </div>
 
         <div class="me-4">
 
-          <router-link to="/home"><img class="me-2" src="../public/img/ri_reserved.png" alt="">Reservations </router-link>
+          <router-link to="/reservation"><img class="me-2" src="../public/img/ri_reserved.png" alt="">Reservations
+          </router-link>
 
         </div>
 
         <div class="me-4">
 
-          <router-link to="/statement"><img class="me-2" src="../public/img/List.png" alt="">Statements </router-link>
+          <router-link to="/monthlystatement"><img class="me-2" src="../public/img/List.png" alt="">Statements
+          </router-link>
 
         </div>
 
         <div class="me-4">
 
-          <router-link to="/home"><img class="me-2" src="../public/img/codicon_graph.png" alt="">Reports </router-link>
+          <router-link to="/report"><img class="me-2" src="../public/img/codicon_graph.png" alt="">Reports </router-link>
 
         </div>
 
         <div class="me-4">
 
-          <router-link to="/home"><img class="me-2" src="../public/img/fluent_web-asset.png" alt="">Assets </router-link>
+          <router-link to="/assetlist"><img class="me-2" src="../public/img/fluent_web-asset.png" alt="">Assets
+          </router-link>
 
         </div>
 
@@ -153,9 +161,9 @@
             <div id="assets-menu" class="dropdown-menu1  main-card">
               <!-- menu items go here -->
               <p><router-link to="/home"><img src="../public/img/invoice.png"> Asset Invoices</router-link></p>
-              <p><router-link to="/home"><img src="../public/img/dollar.png"> Infringements</router-link></p>
-              <p><router-link to="/home"><img src="../public/img/person.png"> Maintenance</router-link></p>
-              <p><router-link to="/home"><img src="../public/img/tools.png"> Support</router-link></p>
+              <p><router-link to="/infragment"><img src="../public/img/dollar.png"> Infringements</router-link></p>
+              <p><router-link to="/maintenancelist"><img src="../public/img/person.png"> Maintenance</router-link></p>
+              <p><router-link to="/ticket"><img src="../public/img/tools.png"> Support</router-link></p>
               <p><router-link to="/home"><img src="../public/img/logout.png"> Logout</router-link></p>
             </div>
           </div>
@@ -170,10 +178,10 @@
 </template>
 <style>
 .dropdown-menu1 {
-      display: none;
-    position: absolute !important;
-    z-index: 2 !important;
-    right: 72px !important;
+  display: none;
+  position: absolute !important;
+  z-index: 2 !important;
+  right: 72px !important;
   display: block !important;
 }
 </style>

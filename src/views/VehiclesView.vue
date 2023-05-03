@@ -30,9 +30,9 @@
                     <div class="dashboard__filter-icons">
                         <ul>
                             <li>
-                                <a href="#">
-                                    <img src="../assets/img/icons/plus.svg" alt="icon" />
-                                </a>
+
+                                <img src="../assets/img/icons/plus.svg" alt="icon" />
+
                             </li>
                             <li>
                                 <a href="#">
@@ -40,13 +40,15 @@
                                 </a>
                             </li>
                             <li>
-                                <router-link to="/vehicleqr"><img src="../assets/img/icons/qr-code-line.svg" alt="icon" /></router-link>  
-                              
+                                <router-link to="/vehicleqr"><img src="../assets/img/icons/qr-code-line.svg"
+                                        alt="icon" /></router-link>
+
                             </li>
                             <li>
-                               <router-link to="/">
-                                    <img src="../assets/img/icons/plus.svg" alt="icon" />
-                              </router-link> 
+
+                                <img src="../assets/img/icons/plus.svg" alt="icon" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal" />
+
                             </li>
                         </ul>
                     </div>
@@ -63,22 +65,29 @@
     </seciton>
     <!-- End Dashboard Content -->
     <!-- modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">
-                        Modal title
-                    </h1>
+                    <h5 class="modal-title" id="exampleModalLabel">Send Email</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">...</div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                        Close
-                    </button>
-                    <button type="button" class="btn btn-primary">Understood</button>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="select" class=" modalLabel">Statement of</label>
+                        <select class="form-select stSelect" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="my-3 d-flex justify-content-center">
+
+                    <button type="button" class="btn  sendBtn">Prepare Report</button>
                 </div>
             </div>
         </div>
@@ -86,13 +95,125 @@
     <!-- Modal -->
 </template>
   
-<style>
+<style scoped>
 .tabcontent {
     display: none;
 }
 
 .tabcontent .active {
     display: block !important;
+}
+
+.dp {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    /* Black 100% */
+
+    color: #000000;
+
+}
+
+.padding-card {
+    padding: 0px !important;
+
+}
+
+.invP {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 10px;
+    gap: 6px;
+
+
+
+    /* Green/0 */
+
+    background: #E1FCEF;
+    border-radius: 10px;
+}
+
+.Inpara2 {
+    width: 73px;
+    height: 18px;
+
+    /* Caption/c1 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    /* Green/500 */
+
+    color: #14804A !important;
+
+}
+
+.modalLabel {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+
+    /* Black 100% */
+
+    color: #000000;
+}
+
+.stSelect {
+    width: 100% !important;
+    max-width: 100% !important
+}
+
+.form-select {
+    width: 100% !important;
+    max-width: 100% !important
+}
+
+.sendBtn {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 10px 16px !important;
+    gap: 10px !important;
+
+
+
+    background: #083EA1 !important;
+    border-radius: 4px !important;
+    color: #fff;
+    font-weight: 600 !important;
+}
+
+.modal-content {
+    border: 1px solid #E8E8E8 !important;
+    border-radius: 14px !important;
+}
+
+.modal-header {
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #F9FAFC;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
 }
 </style>
   

@@ -24,11 +24,6 @@
                     <!-- filter icons -->
                     <div class="dashboard__filter-icons">
                         <ul>
-                            <li>
-                                <a href="#">
-                                    <img src="../assets/img/icons/plus.svg" alt="icon" />
-                                </a>
-                            </li>
 
                             <li>
                                 <a href="#">
@@ -36,6 +31,11 @@
                                 </a>
                             </li>
 
+                            <li>
+                                <router-link to="/addasset">
+                                    <img src="../assets/img/icons/plus.svg" alt="icon" /></router-link>
+
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -10,6 +10,10 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.6",
+    "@fullcalendar/daygrid": "^6.1.6",
+    "@fullcalendar/interaction": "^6.1.6",
+    "@fullcalendar/list": "^6.1.6",
     "@fullcalendar/timegrid": "^6.1.6",
     "@fullcalendar/vue3": "^6.1.6",
     "chart.js": "^4.3.0",
@@ -23,7 +27,7 @@
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
-    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue": "^4.2.1",
     "@vitejs/plugin-vue-jsx": "^3.0.0",
     "@vue/eslint-config-prettier": "^7.1.0",
     "eslint": "^8.34.0",
