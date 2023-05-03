@@ -67,10 +67,10 @@
                 <div class=" d-flex justify-content-end mb-3 mx-2">
 
 
-                    <button type="submit" class="btn Cancel" style=" background: #F4F4F4 !important;
+                    <router-link to="/infragment"> <button type="submit" class="btn Cancel" style=" background: #F4F4F4 !important;
                                     border-radius: 4px !important;">
-                        Cancel
-                    </button>
+                            Cancel
+                        </button></router-link>
                     <button type="submit" class="btn Send mx-2" style=" background: #2388FF !important;
                                 border-radius: 4px !important; color:#fff">
 

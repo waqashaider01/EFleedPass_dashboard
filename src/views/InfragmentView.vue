@@ -6,42 +6,21 @@
     </head>
     <!--container start-->
     <div class="container my-3">
-        <div class="row menu-row">
-            <div class="col-12 d-flex">
-                <div class="me-3">
-                    <a href="#"><img class="me-2" src="../assets/img/Dashboard.png" alt="">Dashboard </a>
-                </div>
-                <div class="me-3">
-                    <a href="#"><img class="me-2" src="../assets/img/fluent_building.png" alt="">Corporate Rentals </a>
-                </div>
-                <div class="me-3">
-                    <a href="#"><img class="me-2" src="../assets/img/ri_steering-fill.png" alt="">Drivers </a>
-                </div>
-                <div class="me-3">
-                    <a href="#"><img class="me-2" src="../assets/img/fluent_vehicle-bus.png" alt="">Vehicles </a>
-                </div>
-                <div class="me-4">
-                    <a href="#"><img class="me-2" src="../assets/img/ant-design.png" alt="">Transactions </a>
-                </div>
-                <div class="me-4">
-                    <a href="#"><img class="me-2" src="../assets/img/ri_reserved.png" alt="">Reservations </a>
-                </div>
-                <div class="me-4">
-                    <a href="#"><img class="me-2" src="../assets/img/List.png" alt="">Statements </a>
-                </div>
-                <div class="me-4">
-                    <a href="#"><img class="me-2" src="../assets/img/codicon_graph.png" alt="">Reports </a>
-                </div>
-                <div class="me-4">
-                    <a href="#"><img class="me-2" src="../assets/img/fluent_web-asset.png" alt="">Assets </a>
-                </div>
 
-            </div>
-        </div>
 
         <div class="subhead">
-            <div class="col-lg-12">
+            <div class="col-lg-12 d-flex justify-content-between">
                 <h5 class="fw-bolder">Fleet Details</h5>
+                <router-link to="/addticket"> <span class="plus"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 3C6.13261 3 6.25979 3.05268 6.35355 3.14645C6.44732 3.24021 6.5 3.36739 6.5 3.5V5.5H8.5C8.63261 5.5 8.75979 5.55268 8.85355 5.64645C8.94732 5.74021 9 5.86739 9 6C9 6.13261 8.94732 6.25979 8.85355 6.35355C8.75979 6.44732 8.63261 6.5 8.5 6.5H6.5V8.5C6.5 8.63261 6.44732 8.75979 6.35355 8.85355C6.25979 8.94732 6.13261 9 6 9C5.86739 9 5.74021 8.94732 5.64645 8.85355C5.55268 8.75979 5.5 8.63261 5.5 8.5V6.5H3.5C3.36739 6.5 3.24021 6.44732 3.14645 6.35355C3.05268 6.25979 3 6.13261 3 6C3 5.86739 3.05268 5.74021 3.14645 5.64645C3.24021 5.55268 3.36739 5.5 3.5 5.5H5.5V3.5C5.5 3.36739 5.55268 3.24021 5.64645 3.14645C5.74021 3.05268 5.86739 3 6 3Z"
+                                fill="#2388FF" />
+                            <path
+                                d="M0 6C-1.17411e-08 5.21207 0.155195 4.43185 0.456723 3.7039C0.758251 2.97595 1.20021 2.31451 1.75736 1.75736C2.31451 1.20021 2.97595 0.758251 3.7039 0.456723C4.43185 0.155195 5.21207 0 6 0C6.78793 0 7.56815 0.155195 8.2961 0.456723C9.02405 0.758251 9.68549 1.20021 10.2426 1.75736C10.7998 2.31451 11.2417 2.97595 11.5433 3.7039C11.8448 4.43185 12 5.21207 12 6C12 7.5913 11.3679 9.11742 10.2426 10.2426C9.11742 11.3679 7.5913 12 6 12C4.4087 12 2.88258 11.3679 1.75736 10.2426C0.632141 9.11742 2.37122e-08 7.5913 0 6ZM6 1C4.67392 1 3.40215 1.52678 2.46447 2.46447C1.52678 3.40215 1 4.67392 1 6C1 7.32608 1.52678 8.59785 2.46447 9.53553C3.40215 10.4732 4.67392 11 6 11C7.32608 11 8.59785 10.4732 9.53553 9.53553C10.4732 8.59785 11 7.32608 11 6C11 4.67392 10.4732 3.40215 9.53553 2.46447C8.59785 1.52678 7.32608 1 6 1Z"
+                                fill="#2388FF" />
+                        </svg>
+                    </span></router-link>
             </div>
         </div>
 
@@ -84,21 +63,7 @@
     <seciton class="dashboard__body">
         <!-- dashboard filter -->
         <div class="container">
-            <div class="dashboard__filter">
-                <h4>Add Maintenance Work</h4>
-                <div class="dashboard__filter-right">
-                    <!-- filter icons -->
-                    <div class="dashboard__filter-icons">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <img src="../assets/img/icons/carbon_view.png" alt="icon" />
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+
             <!-- corporate__widgets -->
             <div class="corporate__widgets">
                 <!-- corporate from title -->
