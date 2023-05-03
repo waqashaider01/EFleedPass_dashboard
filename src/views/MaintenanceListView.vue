@@ -5,18 +5,15 @@
                 <h5>Maintenance List</h5>
             </div>
             <div class="col-lg-6 d-flex my-2 justify-content-evenly align-items-center">
-                <select class="form-select">
-                    <option selected>ALL</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                </select>
+
                 <form class="d-flex sub-src">
                     <input class="form-control me-2 sub-src-input" type="search" placeholder="Search">
                     <button class="sub-src-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
-                <i class="far fa-file-alt sblu"></i>
-                <img src="../assets/img/pls.png" alt="icon">
+                <router-link to="/maintenancework">
+                    <img src="../assets/img/pls.png" alt="icon">
+                </router-link>
+
             </div>
         </div>
         <div class="row">
