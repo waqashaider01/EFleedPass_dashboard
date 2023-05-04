@@ -37,6 +37,11 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
+      path: '/',
+      name: 'DashboardView',
+      component: DashboardView
+    },
+    {
       path: '/dashboard',
       name: 'DashboardView',
       component: DashboardView
@@ -59,11 +64,11 @@ const router = createRouter({
       name: 'LiveDriverView',
       component: LiveDriverView
     },
-    {
-      path: '/',
-      name: 'VehiclesView',
-      component: VehiclesView
-    },
+    // {
+    //   path: '/',
+    //   name: 'VehiclesView',
+    //   component: VehiclesView
+    // },
     {
       path: '/paynotice',
       name: 'PayNoticeView',
