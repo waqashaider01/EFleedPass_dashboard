@@ -31,7 +31,7 @@ import ReportView from '@/views/ReportView.vue'
 import AssetsListView from '@/views/AssetsListView.vue'
 import AddAssetView from '@/views/AddAssetView.vue'
 import ReservCalanderView from '@/views/ReservCalanderView.vue'
-import MonthlyStatementView from '@/views/AssetsListView.vue'
+import MonthlyStatementView from '@/views/MonthlyStatementView.vue'
 // import MonthlyStatementView from '@/views/'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

@@ -94,7 +94,7 @@
 
         <div class="me-3">
 
-          <router-link to="/assetlist"><img class="me-2" src="../public/img/Dashboard.png" alt="">Dashboard
+          <router-link to="/"><img class="me-2" src="../public/img/Dashboard.png" alt="">Dashboard
           </router-link>
 
         </div>
