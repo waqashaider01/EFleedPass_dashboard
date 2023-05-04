@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import DashboardView from '../views/DashboardView.vue'
+import DashboardView2 from '../views/DashboardView.vue'
 import DriverView from '../views/DriverView.vue'
 import LiveDriverView from '../views/LiveDriverView.vue'
 import PayNotice from '../views/PayNotice.vue'
@@ -43,8 +44,8 @@ const router = createRouter({
     },
     {
       path: '/dashboard',
-      name: 'DashboardView',
-      component: DashboardView
+      name: 'DashboardView2',
+      component: DashboardView2
     },
     {
       path: '/driverdetail',
@@ -64,7 +65,7 @@ const router = createRouter({
       name: 'LiveDriverView',
       component: LiveDriverView
     },
-  
+
     {
       path: '/paynotice',
       name: 'PayNoticeView',
