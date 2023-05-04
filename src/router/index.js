@@ -64,11 +64,7 @@ const router = createRouter({
       name: 'LiveDriverView',
       component: LiveDriverView
     },
-    // {
-    //   path: '/',
-    //   name: 'VehiclesView',
-    //   component: VehiclesView
-    // },
+  
     {
       path: '/paynotice',
       name: 'PayNoticeView',
