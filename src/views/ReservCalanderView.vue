@@ -190,11 +190,51 @@
                             </div>
                         </div>
                         <hr>
+                        <div class="my-2">
+                            <div class="d-flex justify-content-between">
+                                <p class="modalLabel"> Card Details For Rental</p>
+                                <div class="d-flex">
+                                    <img src="../img/efcard.png" alt="efleet" class="mx-1">
+                                    <img src="../img/picon2.png" alt="" class="mx-1">
+                                    <img src="../assets/img/visaicon.png" alt="" class="mx-1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 my-2">
+                                <label for="autoSizingInputGroup" class="form-label">Add a credit card</label>
+                                <label class="visually-hidden" for="autoSizingInputGroup"></label>
+                                <div class="input-group">
+                                    <div class="input-group-text">
+                                        <img sr="../assets/img/mastercard.jpeg" width="70%" height="80%">
+                                    </div>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup"
+                                        placeholder="000 000 0000">
+                                </div>
+                            </div>
+                            <div class="col-md-6 my-2">
+                                <label for="expdate" class="form-label">Expiry Date</label>
+                                <input type="date" class="form-control" id="expdate">
+                            </div>
+                            <div class="col-md-6 my-2">
+                                <label for="cvc" class="form-label">CVC</label>
+                                <input type="text" class="form-control" id="cvc" placeholder="CVC">
+                            </div>
+                            <div class="col-md-12">
+
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Booking Notes</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                        placeholder="Notes"></textarea>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="my-3 d-flex justify-content-center ">
 
-                        <button type="button" class="btn  sendBtn">Send Email</button>
+                        <button type="button" class="btn btn-primary mx-2">Send Quote</button>
+                        <button type="button" class="btn  sendBtn mx-2">Send Reservation</button>
                     </div>
                 </div>
             </div>
