@@ -7,6 +7,198 @@
     <!--container start-->
     <!-- Dashboard Content -->
     <seciton class="dashboard__body">
+        <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Add Reservation</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="select modalLabel">Pick up location</label>
+                                    <select class="form-select stSelect" aria-label="Default select example">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="select modalLabel">Drop off location</label>
+                                    <select class="form-select stSelect" aria-label="Default select example">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label modalLabel">Start Date:
+                                        *</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="eg 1/4/23">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label modalLabel">Return Date:
+                                        *</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="eg 1/4/23">
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="modalLabel">Vehicle Categories</p>
+                            <div class=" my-2">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+
+                                    </div>
+                                    <div class="imageCon p-3 me-2">
+                                        <img class="bcarImg" src="../assets/img/cars/big.png" alt="">
+                                    </div>
+                                    <p>Test Car</p>
+                                    <p>$500/day</p>
+                                </div>
+                                <hr>
+                                <div class="d-flex flex-row justify-content-between">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+
+                                    </div>
+                                    <div class="imageCon p-3 me-2">
+                                        <img class="bcarImg" src="../assets/img/cars/big.png" alt="">
+                                    </div>
+                                    <p>Test Car</p>
+                                    <p>$500/day</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="my-2">
+                            <p class="modalLabel">Add ones</p>
+                            <div class="d-flex justify-content-between align-items-center my-1">
+                                <button class="btn addBtn  d-flex flex-column align-items-center"><svg width="14"
+                                        height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.99992 11.6666V6.99992M6.99992 6.99992V2.33325M6.99992 6.99992H11.6666M6.99992 6.99992H2.33325"
+                                            stroke="#083EA1" stroke-width="2" stroke-linecap="round" />
+                                    </svg>
+                                    Add
+                                </button>
+                                <img src="../img/cu.png" alt="">
+                                <p>ASIC COVER INCLUDED If you have an accident or damage the vehicle, your excess liability
+                                    is $4,818.
+                                    $0.00 (One-time)</p>
+                                <div class="d-flex">
+                                    <button class="btn text-primary "> +</button>
+                                    <input class="form-control mx-2" type="number">
+                                    <button class="btn text-primary">-</button>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center my-1">
+                                <button class="btn reBtn text-danger  d-flex flex-column align-items-center"><svg width="14"
+                                        height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4.92188 2.51562H4.8125C4.87266 2.51562 4.92188 2.46641 4.92188 2.40625V2.51562H9.07812V2.40625C9.07812 2.46641 9.12734 2.51562 9.1875 2.51562H9.07812V3.5H10.0625V2.40625C10.0625 1.92363 9.67012 1.53125 9.1875 1.53125H4.8125C4.32988 1.53125 3.9375 1.92363 3.9375 2.40625V3.5H4.92188V2.51562ZM11.8125 3.5H2.1875C1.94551 3.5 1.75 3.69551 1.75 3.9375V4.375C1.75 4.43516 1.79922 4.48438 1.85938 4.48438H2.68516L3.02285 11.6348C3.04473 12.101 3.43027 12.4688 3.89648 12.4688H10.1035C10.5711 12.4688 10.9553 12.1023 10.9771 11.6348L11.3148 4.48438H12.1406C12.2008 4.48438 12.25 4.43516 12.25 4.375V3.9375C12.25 3.69551 12.0545 3.5 11.8125 3.5ZM9.99824 11.4844H4.00176L3.6709 4.48438H10.3291L9.99824 11.4844Z"
+                                            fill="#FF2D46" />
+                                    </svg>
+
+                                    Remove
+                                </button>
+                                <img src="../img/meter.png" alt="">
+                                <p class="mx-5">ASIC COVER INCLUDED If you have an accident or damage the vehicle, your
+                                    excess liability
+                                    is $4,818.
+                                    $0.00 (One-time)</p>
+                                <div class="d-flex">
+                                    <button class="btn text-primary "> +</button>
+                                    <input class="form-control mx-2" type="number">
+                                    <button class="btn text-primary">-</button>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="my-2">
+                            <div class="d-flex align-items-center ">
+                                <label class="mx-2 modalLabel" for="mySwitch">Existing Customer</label>
+                                <div class="form-check form-switch mx-2">
+                                    <input class="form-check-input f2" type="checkbox" id="mySwitch2" name="darkmode"
+                                        value="yes" checked>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label modalLabel">First Name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="eg John">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label modalLabel">Sur Name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="eg Doe">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label modalLabel">Mobile
+                                        Number</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="eg 000 00000000">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label modalLabel">Email Address
+                                    </label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="eg test@gmail.com">
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="my-2">
+                            <div class="d-flex align-items-center ">
+                                <label class="mx-2 modalLabel" for="mySwitch">Send SmS</label>
+                                <div class="form-check form-switch mx-2">
+                                    <input class="form-check-input f2" type="checkbox" id="mySwitch2" name="darkmode"
+                                        value="yes" checked>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="my-3 d-flex justify-content-center ">
+
+                        <button type="button" class="btn  sendBtn">Send Email</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- dashboard filter -->
         <div class="container">
             <div class="dashboard__filter">
@@ -24,7 +216,7 @@
                             <option value="2">Two</option>
                             <option value="3">Three</option>
                         </select>
-                        <button class="btn mx-2" type="submit">
+                        <button class="btn mx-2" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <img src="../img/icons/plus.svg" alt="icon" />
                         </button>
                         <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
@@ -69,7 +261,38 @@
     <!-- End Dashboard Content -->
 </template>
   
-<style>
+<style scoped>
+.f2:checked {
+    background-color: #11B826 !important;
+    ;
+}
+
+.reBtn {
+    font-family: 'Port Lligat Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    /* identical to box height */
+
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    /* Alert */
+
+    color: #FF2D46;
+}
+
+.imageCon {
+    background: #E1E5F2;
+    border-radius: 14px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.bcarImg {
+    width: 100px;
+}
+
 .para3 {
     font-family: 'Poppins';
     font-style: normal;
@@ -89,9 +312,76 @@
     color: #fff !important;
 }
 
+.addBtn {
+    color: #083EA1 !important;
+    font-family: 'Port Lligat Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    /* identical to box height */
+
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    /* Primary 1 */
+
+}
+
 .maniBtn {
     background: #E1E5F2 !important;
     border-radius: 4px !important;
+}
+
+.modalLabel {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+
+    /* Black 100% */
+
+    color: #000000;
+}
+
+.stSelect {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.form-select {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.sendBtn {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 10px 16px !important;
+    gap: 10px !important;
+
+
+
+    background: #083EA1 !important;
+    border-radius: 4px !important;
+    color: #fff;
+    font-weight: 600 !important;
+}
+
+.modal-content {
+    border: 1px solid #E8E8E8 !important;
+    border-radius: 14px !important;
+}
+
+.modal-header {
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
 }
 </style>
   
